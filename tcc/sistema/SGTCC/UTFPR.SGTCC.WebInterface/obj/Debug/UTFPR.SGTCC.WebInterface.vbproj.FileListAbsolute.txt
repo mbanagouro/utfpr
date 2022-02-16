@@ -1,0 +1,125 @@
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.dll
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.pdb
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.xml
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.dll
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.ObjectBuilder.dll
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.pdb
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.xml
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\ResolveAssemblyReference.cache
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.Resources.resources
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.vbproj.GenerateResource.Cache
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.dll
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.xml
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.pdb
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.dll
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.pdb
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.xml
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.WebInterface\bin\AjaxControlToolkit.dll
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.dll
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.pdb
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.xml
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\ResolveAssemblyReference.cache
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.Resources.resources
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.vbproj.GenerateResource.Cache
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.dll
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.xml
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.pdb
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.dll
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.pdb
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.xml
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.dll
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.pdb
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.xml
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.Resources.resources
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.dll
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.xml
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.pdb
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.ObjectBuilder.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\bin\System.Web.Silverlight.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.pdb
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.xml
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.ObjectBuilder.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.pdb
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.xml
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\bin\de\System.Web.Silverlight.resources.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\bin\es\System.Web.Silverlight.resources.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\bin\fr\System.Web.Silverlight.resources.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\bin\it\System.Web.Silverlight.resources.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\bin\ja\System.Web.Silverlight.resources.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\bin\ko\System.Web.Silverlight.resources.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\bin\zh-Hans\System.Web.Silverlight.resources.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\bin\zh-Hant\System.Web.Silverlight.resources.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\ResolveAssemblyReference.cache
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.Resources.resources
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.vbproj.GenerateResource.Cache
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.xml
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.pdb
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.dll
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.pdb
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.xml
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.dll
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.ObjectBuilder.dll
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.pdb
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.xml
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.Resources.resources
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.dll
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.xml
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.pdb
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.dll
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.pdb
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.xml
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.dll
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.ObjectBuilder.dll
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.pdb
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.xml
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.Resources.resources
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.vbproj.GenerateResource.Cache
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\RdlCompile.cache
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\RdlCompile.compiled
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.dll
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.xml
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.pdb
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.pdb
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.WebInterface.xml
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\bin\Microsoft.Practices.ObjectBuilder.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.pdb
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\bin\UTFPR.SGTCC.Negocio.xml
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\ResolveAssemblyReference.cache
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.Resources.resources
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.UrlMaps.resources
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.vbproj.GenerateResource.Cache
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\RdlCompile.cache
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\RdlCompile.compiled
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.xml
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.WebInterface\obj\Debug\UTFPR.SGTCC.WebInterface.pdb

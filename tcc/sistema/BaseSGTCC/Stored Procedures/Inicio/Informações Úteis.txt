@@ -1,0 +1,14 @@
+
+Banco de dados
+
+INTEGRIDADE REFERENCIAL
+ 
+  -> Garante a integridade dos dados entre as diversas tabelas relacionadas, evitando inconsistências dos dados.
+
+  Exemplo: o Banco de dados não permite cadastrar um serviço para um cliente que não exista.
+
+
+
++==============================================================================================================+
+
+

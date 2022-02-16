@@ -1,0 +1,258 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Report xmlns="http://schemas.microsoft.com/sqlserver/reporting/2005/01/reportdefinition" xmlns:rd="http://schemas.microsoft.com/SQLServer/reporting/reportdesigner">
+  <DataSources>
+    <DataSource Name="ConnectionString">
+      <rd:DataSourceID>9e7927c6-9b38-4276-9cb6-a87b6c092b85</rd:DataSourceID>
+      <ConnectionProperties>
+        <DataProvider>SQL</DataProvider>
+        <ConnectString />
+      </ConnectionProperties>
+    </DataSource>
+  </DataSources>
+  <InteractiveHeight>29.7cm</InteractiveHeight>
+  <rd:DrawGrid>true</rd:DrawGrid>
+  <InteractiveWidth>21cm</InteractiveWidth>
+  <rd:GridSpacing>0.25cm</rd:GridSpacing>
+  <rd:SnapToGrid>true</rd:SnapToGrid>
+  <RightMargin>2.5cm</RightMargin>
+  <LeftMargin>2.5cm</LeftMargin>
+  <BottomMargin>2.5cm</BottomMargin>
+  <rd:ReportID>57832fd9-8ebd-4984-9138-a5811d34664b</rd:ReportID>
+  <EmbeddedImages>
+    <EmbeddedImage Name="img_logoutfpr">
+      <MIMEType>image/gif</MIMEType>
+      <ImageData>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</ImageData>
+    </EmbeddedImage>
+  </EmbeddedImages>
+  <PageWidth>21cm</PageWidth>
+  <DataSets>
+    <DataSet Name="DataSet1_proc_SelecionarRelAprovados">
+      <Fields>
+        <Field Name="codigoTcc">
+          <DataField>codigoTcc</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="nomeAluno">
+          <DataField>nomeAluno</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="temaTcc">
+          <DataField>temaTcc</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="tipoBanca">
+          <DataField>tipoBanca</DataField>
+          <rd:TypeName>System.Int32</rd:TypeName>
+        </Field>
+        <Field Name="nomeOrientador">
+          <DataField>nomeOrientador</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="convidado01">
+          <DataField>convidado01</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="convidado02">
+          <DataField>convidado02</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Data">
+          <DataField>Data</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="Hora">
+          <DataField>Hora</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+        <Field Name="salaBanca">
+          <DataField>salaBanca</DataField>
+          <rd:TypeName>System.String</rd:TypeName>
+        </Field>
+      </Fields>
+      <Query>
+        <DataSourceName>ConnectionString</DataSourceName>
+        <CommandType>StoredProcedure</CommandType>
+        <CommandText>dbo.proc_SelecionarRelAprovados</CommandText>
+        <rd:UseGenericDesigner>true</rd:UseGenericDesigner>
+      </Query>
+      <rd:DataSetInfo>
+        <rd:DataSetName>DataSet1</rd:DataSetName>
+        <rd:TableName>proc_SelecionarRelAprovados</rd:TableName>
+        <rd:TableAdapterName>proc_SelecionarRelAprovadosTableAdapter</rd:TableAdapterName>
+        <rd:TableAdapterFillMethod>Fill</rd:TableAdapterFillMethod>
+        <rd:TableAdapterGetDataMethod>GetData</rd:TableAdapterGetDataMethod>
+      </rd:DataSetInfo>
+    </DataSet>
+  </DataSets>
+  <Width>16cm</Width>
+  <Body>
+    <ColumnSpacing>1cm</ColumnSpacing>
+    <ReportItems>
+      <List Name="list1">
+        <DataSetName>DataSet1_proc_SelecionarRelAprovados</DataSetName>
+        <ReportItems>
+          <Line Name="line1">
+            <Top>18.25cm</Top>
+            <Width>11.24339cm</Width>
+            <Style>
+              <BorderStyle>
+                <Default>Solid</Default>
+              </BorderStyle>
+            </Style>
+            <ZIndex>8</ZIndex>
+            <Left>4.25cm</Left>
+            <Height>0cm</Height>
+          </Line>
+          <Textbox Name="textbox2">
+            <rd:DefaultName>textbox2</rd:DefaultName>
+            <Top>6cm</Top>
+            <Width>14.5cm</Width>
+            <Style>
+              <FontFamily>Verdana</FontFamily>
+              <FontWeight>700</FontWeight>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>7</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.25cm</Left>
+            <Height>0.63492cm</Height>
+            <Value>="Coordenação de Trabalho de Conclusão de Curso - Tecnologia em Análise e Desenvolvimento de Sistemas"</Value>
+          </Textbox>
+          <Textbox Name="textbox5">
+            <rd:DefaultName>textbox5</rd:DefaultName>
+            <Top>18.93254cm</Top>
+            <Width>10.5cm</Width>
+            <Style>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>6</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>4.75cm</Left>
+            <Height>0.5cm</Height>
+            <Value>="Eidy Leandro Tanaka Guandeline"</Value>
+          </Textbox>
+          <Textbox Name="textbox4">
+            <rd:DefaultName>textbox4</rd:DefaultName>
+            <Top>18.44709cm</Top>
+            <Width>10.5cm</Width>
+            <Style>
+              <FontFamily>Verdana</FontFamily>
+              <FontWeight>700</FontWeight>
+              <TextAlign>Right</TextAlign>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>5</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>4.75cm</Left>
+            <Height>0.5119cm</Height>
+            <Value>="Coordenador de Trabalho de Conclusão de Curso"</Value>
+          </Textbox>
+          <Textbox Name="textbox3">
+            <rd:DefaultName>textbox3</rd:DefaultName>
+            <Top>9cm</Top>
+            <Width>15.5cm</Width>
+            <Style>
+              <FontFamily>Verdana</FontFamily>
+              <FontWeight>700</FontWeight>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>4</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.25cm</Left>
+            <Height>0.63492cm</Height>
+            <Value>="Comunicação de Aprovação na disciplina de Trabalho de Conclusão de Curso"</Value>
+          </Textbox>
+          <Textbox Name="textbox1">
+            <rd:DefaultName>textbox1</rd:DefaultName>
+            <Top>0.5cm</Top>
+            <Style>
+              <FontFamily>Verdana</FontFamily>
+              <FontSize>9pt</FontSize>
+              <FontWeight>700</FontWeight>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>3</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>3cm</Left>
+            <Height>2.75cm</Height>
+            <Value>="MINISTÉRIO DA EDUCAÇÃO" &amp; vbCrlf &amp; 
+"UNIVERSIDADE TECNOLÓGICA FEDERAL DO PARANÁ" &amp; vbCrlf &amp;
+"CAMPUS CORNÉLIO PROCÓPIO" &amp; vbCrlf &amp;
+"TECNOLOGIA EM ANÁLISE E DESENVOLVIMENTO DE SISTEMAS"</Value>
+          </Textbox>
+          <Textbox Name="textbox18">
+            <rd:DefaultName>textbox18</rd:DefaultName>
+            <Top>11cm</Top>
+            <Style>
+              <FontFamily>Verdana</FontFamily>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>2</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.2381cm</Left>
+            <Height>3cm</Height>
+            <Value>="Comunico que no dia " &amp; Fields!Data.Value &amp; " às " &amp; Fields!Hora.Value &amp; ", foi realizado a banca composta pelos Professores " &amp; Fields!convidado01.Value &amp; ", " &amp; Fields!convidado02.Value &amp; " e " &amp; Fields!nomeOrientador.Value &amp; " orientador do trabalho, para avaliação do relatório final, bem como das atividades realizadas para a disciplina Trabalho de Conclusão de Curso intitulado " &amp; Fields!temaTcc.Value &amp; " do aluno(a) " &amp; Fields!nomeAluno.Value &amp; "."</Value>
+          </Textbox>
+          <Textbox Name="textbox16">
+            <rd:DefaultName>textbox16</rd:DefaultName>
+            <Top>4.72355cm</Top>
+            <Width>14.75cm</Width>
+            <Style>
+              <FontFamily>Verdana</FontFamily>
+              <FontWeight>700</FontWeight>
+              <PaddingLeft>2pt</PaddingLeft>
+              <PaddingRight>2pt</PaddingRight>
+              <PaddingTop>2pt</PaddingTop>
+              <PaddingBottom>2pt</PaddingBottom>
+            </Style>
+            <ZIndex>1</ZIndex>
+            <CanGrow>true</CanGrow>
+            <Left>0.25cm</Left>
+            <Height>0.63492cm</Height>
+            <Value>="Cornélio Procópio, " &amp; WeekdayName(Weekday(Now())) &amp; ", " &amp; Day(Now()) &amp; " de " &amp; MonthName(Month(Now())) &amp; " de " &amp; Year(Now())</Value>
+          </Textbox>
+          <Image Name="imgLogo">
+            <Sizing>Fit</Sizing>
+            <Top>0.75cm</Top>
+            <Width>2.75cm</Width>
+            <MIMEType>image/gif</MIMEType>
+            <Source>Embedded</Source>
+            <Style />
+            <Height>1cm</Height>
+            <Value>img_logoutfpr</Value>
+          </Image>
+        </ReportItems>
+        <Height>21cm</Height>
+      </List>
+    </ReportItems>
+    <Height>22cm</Height>
+    <Style>
+      <BackgroundColor>White</BackgroundColor>
+    </Style>
+  </Body>
+  <Language>pt-BR</Language>
+  <TopMargin>2.5cm</TopMargin>
+  <PageHeight>29.7cm</PageHeight>
+</Report>

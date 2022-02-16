@@ -1,0 +1,765 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="3.5" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>9.0.30729</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{D2667841-914A-4B14-88AE-F906F176A58A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{F184B08F-C81C-45F6-A57F-5ABD9991F28F}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <RootNamespace>UTFPR.SGTCC.WebInterface</RootNamespace>
+    <AssemblyName>UTFPR.SGTCC.WebInterface</AssemblyName>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionCompare>Binary</OptionCompare>
+    <OptionStrict>On</OptionStrict>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>UTFPR.SGTCC.WebInterface.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DocumentationFile>UTFPR.SGTCC.WebInterface.xml</DocumentationFile>
+    <NoWarn>
+    </NoWarn>
+    <WarningsAsErrors>41999,42016,42017,42018,42019,42020,42021,42022,42032,42036</WarningsAsErrors>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="AjaxControlToolkit, Version=1.0.10618.0, Culture=neutral, PublicKeyToken=28f01b0e84b6d53e, processorArchitecture=MSIL" />
+    <Reference Include="FredCK.FCKeditorV2, Version=2.6.3.22451, Culture=neutral, PublicKeyToken=4f86767c9b519a06, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Documents and Settings\ADMIN\Desktop\FredCK.FCKeditorV2.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.ReportViewer.WebForms, Version=9.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL" />
+    <Reference Include="obout_Editor, Version=1.8.1119.1, Culture=neutral, PublicKeyToken=3758f1b5e9d8196b, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>C:\Documents and Settings\Michel Banagouro\Desktop\obout_Editor.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Core">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Data.DataSetExtensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web.Extensions">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <RequiredTargetFramework>3.5</RequiredTargetFramework>
+    </Reference>
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Web.Mobile" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Collections.Specialized" />
+    <Import Include="System.Configuration" />
+    <Import Include="System.Text" />
+    <Import Include="System.Text.RegularExpressions" />
+    <Import Include="System.Web" />
+    <Import Include="System.Web.Caching" />
+    <Import Include="System.Web.SessionState" />
+    <Import Include="System.Web.Security" />
+    <Import Include="System.Web.Profile" />
+    <Import Include="System.Web.UI" />
+    <Import Include="System.Web.UI.WebControls" />
+    <Import Include="System.Web.UI.WebControls.WebParts" />
+    <Import Include="System.Web.UI.HtmlControls" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Classes\Config.vb" />
+    <Compile Include="Classes\Login.vb">
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Global.asax.vb">
+      <DependentUpon>Global.asax</DependentUpon>
+    </Compile>
+    <Compile Include="site\admin\Configuracoes.aspx.designer.vb">
+      <DependentUpon>Configuracoes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\admin\Configuracoes.aspx.vb">
+      <DependentUpon>Configuracoes.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="site\comum\EventoAgenda.aspx.designer.vb">
+      <DependentUpon>EventoAgenda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\comum\EventoAgenda.aspx.vb">
+      <DependentUpon>EventoAgenda.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="site\admin\DefinirCoordenador.aspx.designer.vb">
+      <DependentUpon>DefinirCoordenador.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\admin\DefinirCoordenador.aspx.vb">
+      <DependentUpon>DefinirCoordenador.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\coordenador\EditarBanca.aspx.designer.vb">
+      <DependentUpon>EditarBanca.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\coordenador\EditarBanca.aspx.vb">
+      <DependentUpon>EditarBanca.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\coordenador\EditarTCC.aspx.designer.vb">
+      <DependentUpon>EditarTCC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\coordenador\EditarTCC.aspx.vb">
+      <DependentUpon>EditarTCC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\coordenador\GerenciarBanca.aspx.designer.vb">
+      <DependentUpon>GerenciarBanca.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\coordenador\GerenciarBanca.aspx.vb">
+      <DependentUpon>GerenciarBanca.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\coordenador\GerenciarTCC.aspx.designer.vb">
+      <DependentUpon>GerenciarTCC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\coordenador\GerenciarTCC.aspx.vb">
+      <DependentUpon>GerenciarTCC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\coordenador\GerenciarAvisos.aspx.designer.vb">
+      <DependentUpon>GerenciarAvisos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\coordenador\GerenciarAvisos.aspx.vb">
+      <DependentUpon>GerenciarAvisos.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="site\coordenador\MainTCC.aspx.designer.vb">
+      <DependentUpon>MainTCC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\coordenador\MainTCC.aspx.vb">
+      <DependentUpon>MainTCC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\coordenador\GerenciarUsuarios.aspx.designer.vb">
+      <DependentUpon>GerenciarUsuarios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\coordenador\GerenciarUsuarios.aspx.vb">
+      <DependentUpon>GerenciarUsuarios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\coordenador\NovaBanca.aspx.designer.vb">
+      <DependentUpon>NovaBanca.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\coordenador\NovaBanca.aspx.vb">
+      <DependentUpon>NovaBanca.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\coordenador\NovoTCC.aspx.designer.vb">
+      <DependentUpon>NovoTCC.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\coordenador\NovoTCC.aspx.vb">
+      <DependentUpon>NovoTCC.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\coordenador\Relatorios.aspx.designer.vb">
+      <DependentUpon>Relatorios.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\coordenador\Relatorios.aspx.vb">
+      <DependentUpon>Relatorios.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\coordenador\RelatoriosPorData.aspx.designer.vb">
+      <DependentUpon>RelatoriosPorData.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\coordenador\RelatoriosPorData.aspx.vb">
+      <DependentUpon>RelatoriosPorData.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\coordenador\Relatorios\DataSet1.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="site\coordenador\VisualizaRelatorio.aspx.designer.vb">
+      <DependentUpon>VisualizaRelatorio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\coordenador\VisualizaRelatorio.aspx.vb">
+      <DependentUpon>VisualizaRelatorio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\erro\Erro.aspx.designer.vb">
+      <DependentUpon>Erro.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\erro\Erro.aspx.vb">
+      <DependentUpon>Erro.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="site\publico\Materia.aspx.designer.vb">
+      <DependentUpon>Materia.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\publico\Materia.aspx.vb">
+      <DependentUpon>Materia.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\publico\DatasImportantes.aspx.designer.vb">
+      <DependentUpon>DatasImportantes.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\publico\DatasImportantes.aspx.vb">
+      <DependentUpon>DatasImportantes.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\publico\Defesa.aspx.designer.vb">
+      <DependentUpon>Defesa.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\publico\Defesa.aspx.vb">
+      <DependentUpon>Defesa.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\publico\Proposta.aspx.designer.vb">
+      <DependentUpon>Proposta.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\publico\Proposta.aspx.vb">
+      <DependentUpon>Proposta.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\publico\Orientadores.aspx.designer.vb">
+      <DependentUpon>Orientadores.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\publico\Orientadores.aspx.vb">
+      <DependentUpon>Orientadores.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="site\publico\RecuperarSenha.aspx.designer.vb">
+      <DependentUpon>RecuperarSenha.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\publico\RecuperarSenha.aspx.vb">
+      <DependentUpon>RecuperarSenha.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="site\publico\Situacao.aspx.designer.vb">
+      <DependentUpon>Situacao.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\publico\Situacao.aspx.vb">
+      <DependentUpon>Situacao.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="site\publico\VisualizarAviso.aspx.designer.vb">
+      <DependentUpon>VisualizarAviso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\publico\VisualizarAviso.aspx.vb">
+      <DependentUpon>VisualizarAviso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Configuracoes\UrlMaps.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>UrlMaps.resx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Calendario.ascx.designer.vb">
+      <DependentUpon>Calendario.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Calendario.ascx.vb">
+      <DependentUpon>Calendario.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\GridAvisos.ascx.designer.vb">
+      <DependentUpon>GridAvisos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GridAvisos.ascx.vb">
+      <DependentUpon>GridAvisos.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\GridGerenciarTcc.ascx.designer.vb">
+      <DependentUpon>GridGerenciarTcc.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GridGerenciarTcc.ascx.vb">
+      <DependentUpon>GridGerenciarTcc.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\GridMensagensEnviadas.ascx.designer.vb">
+      <DependentUpon>GridMensagensEnviadas.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GridMensagensEnviadas.ascx.vb">
+      <DependentUpon>GridMensagensEnviadas.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\GridMensagensRecebidas.ascx.designer.vb">
+      <DependentUpon>GridMensagensRecebidas.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GridMensagensRecebidas.ascx.vb">
+      <DependentUpon>GridMensagensRecebidas.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\GridOrientadores.ascx.designer.vb">
+      <DependentUpon>GridOrientadores.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GridOrientadores.ascx.vb">
+      <DependentUpon>GridOrientadores.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\GridSituacaoAluno.ascx.designer.vb">
+      <DependentUpon>GridSituacaoAluno.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\GridSituacaoAluno.ascx.vb">
+      <DependentUpon>GridSituacaoAluno.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ListarUltimosAvisos.ascx.designer.vb">
+      <DependentUpon>ListarUltimosAvisos.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ListarUltimosAvisos.ascx.vb">
+      <DependentUpon>ListarUltimosAvisos.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\MapSite.ascx.designer.vb">
+      <DependentUpon>MapSite.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\MapSite.ascx.vb">
+      <DependentUpon>MapSite.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Menu.ascx.designer.vb">
+      <DependentUpon>Menu.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Menu.ascx.vb">
+      <DependentUpon>Menu.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Default.aspx.designer.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Default.aspx.vb">
+      <DependentUpon>Default.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="site\Download.aspx.vb">
+      <DependentUpon>Download.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="site\comum\Agenda.aspx.designer.vb">
+      <DependentUpon>Agenda.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\comum\Agenda.aspx.vb">
+      <DependentUpon>Agenda.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\comum\Correio.aspx.designer.vb">
+      <DependentUpon>Correio.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\comum\Correio.aspx.vb">
+      <DependentUpon>Correio.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\comum\Perfil.aspx.designer.vb">
+      <DependentUpon>Perfil.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\comum\Perfil.aspx.vb">
+      <DependentUpon>Perfil.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\comum\NovaMensagem.aspx.designer.vb">
+      <DependentUpon>NovaMensagem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\comum\NovaMensagem.aspx.vb">
+      <DependentUpon>NovaMensagem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\comum\VisualizarMensagem.aspx.designer.vb">
+      <DependentUpon>VisualizarMensagem.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\comum\VisualizarMensagem.aspx.vb">
+      <DependentUpon>VisualizarMensagem.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\coordenador\EditarAviso.aspx.designer.vb">
+      <DependentUpon>EditarAviso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\coordenador\EditarAviso.aspx.vb">
+      <DependentUpon>EditarAviso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\coordenador\GerenciarArquivos.aspx.designer.vb">
+      <DependentUpon>GerenciarArquivos.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\coordenador\GerenciarArquivos.aspx.vb">
+      <DependentUpon>GerenciarArquivos.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\coordenador\NovoAviso.aspx.designer.vb">
+      <DependentUpon>NovoAviso.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\coordenador\NovoAviso.aspx.vb">
+      <DependentUpon>NovoAviso.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\coordenador\NovoUsuario.aspx.designer.vb">
+      <DependentUpon>NovoUsuario.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\coordenador\NovoUsuario.aspx.vb">
+      <DependentUpon>NovoUsuario.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\publico\Home.aspx.designer.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\publico\Home.aspx.vb">
+      <DependentUpon>Home.aspx</DependentUpon>
+      <SubType>ASPXCodebehind</SubType>
+    </Compile>
+    <Compile Include="site\publico\Login.aspx.designer.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\publico\Login.aspx.vb">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="site\publico\Downloads.aspx.designer.vb">
+      <DependentUpon>Downloads.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="site\publico\Downloads.aspx.vb">
+      <DependentUpon>Downloads.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Template.Master.designer.vb">
+      <DependentUpon>Template.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Template.Master.vb">
+      <DependentUpon>Template.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\ListarUltimosEventosAgenda.ascx.designer.vb">
+      <DependentUpon>ListarUltimosEventosAgenda.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\ListarUltimosEventosAgenda.ascx.vb">
+      <DependentUpon>ListarUltimosEventosAgenda.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserControls\Header.ascx.designer.vb">
+      <DependentUpon>Header.ascx</DependentUpon>
+    </Compile>
+    <Compile Include="UserControls\Header.ascx.vb">
+      <DependentUpon>Header.ascx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <EmbeddedResource Include="site\coordenador\Relatorios\ReportAprovados.rdlc" />
+    <EmbeddedResource Include="site\coordenador\Relatorios\ReportBancas.rdlc" />
+    <EmbeddedResource Include="Configuracoes\UrlMaps.resx">
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>UrlMaps.Designer.vb</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="site\coordenador\Relatorios\DataSet1.xsc">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <None Include="site\coordenador\Relatorios\DataSet1.xsd">
+      <SubType>Designer</SubType>
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>DataSet1.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="site\coordenador\Relatorios\DataSet1.xss">
+      <DependentUpon>DataSet1.xsd</DependentUpon>
+    </None>
+    <Content Include="Web.sitemap" />
+    <Content Include="Template.Master" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\UTFPR.SGTCC.Negocio\UTFPR.SGTCC.Negocio.vbproj">
+      <Project>{07DE9380-BE85-4802-B9F0-622295179F9C}</Project>
+      <Name>UTFPR.SGTCC.Negocio</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="App_Themes\Default\estilos.css" />
+    <Content Include="Global.asax" />
+    <Content Include="imagens\botoes\arrow_back.png" />
+    <Content Include="imagens\botoes\arrow_next.png" />
+    <Content Include="imagens\botoes\botao_AlterarSenha.png" />
+    <Content Include="imagens\botoes\botao_AlterarUsuario.png" />
+    <Content Include="imagens\botoes\botao_Documentos.png" />
+    <Content Include="imagens\botoes\botao_FAQ.png" />
+    <Content Include="imagens\botoes\botao_GerenciarTCC.png" />
+    <Content Include="imagens\botoes\botao_NovoUsuario.png" />
+    <Content Include="imagens\botoes\botao_Perfil.png" />
+    <Content Include="imagens\botoes\botao_Relatorios.png" />
+    <Content Include="imagens\botoes\botao_RelatorioTCC.png" />
+    <Content Include="imagens\botoes\calendar.png" />
+    <Content Include="imagens\botoes\datasImportantes_0.gif" />
+    <Content Include="imagens\botoes\datasImportantes_1.gif" />
+    <Content Include="imagens\botoes\datasImportantes_2.gif" />
+    <Content Include="imagens\botoes\defCoordenador_0.gif" />
+    <Content Include="imagens\botoes\defCoordenador_1.gif" />
+    <Content Include="imagens\botoes\defCoordenador_2.gif" />
+    <Content Include="imagens\botoes\duvidasDefesa_0.gif" />
+    <Content Include="imagens\botoes\duvidasDefesa_1.gif" />
+    <Content Include="imagens\botoes\duvidasDefesa_2.gif" />
+    <Content Include="imagens\botoes\duvidasProposta_0.gif" />
+    <Content Include="imagens\botoes\duvidasProposta_1.gif" />
+    <Content Include="imagens\botoes\duvidasProposta_2.gif" />
+    <Content Include="imagens\botoes\enviadas_0.png" />
+    <Content Include="imagens\botoes\enviadas_1.png" />
+    <Content Include="imagens\botoes\enviadas_2.png" />
+    <Content Include="imagens\botoes\GerenciarTCC_0.gif" />
+    <Content Include="imagens\botoes\GerenciarTCC_1.gif" />
+    <Content Include="imagens\botoes\GerenciarTCC_2.gif" />
+    <Content Include="imagens\botoes\meuPerfil_0.gif" />
+    <Content Include="imagens\botoes\meuPerfil_1.gif" />
+    <Content Include="imagens\botoes\meuPerfil_2.gif" />
+    <Content Include="imagens\botoes\nova_mensagem_0.png" />
+    <Content Include="imagens\botoes\nova_mensagem_1.png" />
+    <Content Include="imagens\botoes\nova_mensagem_2.png" />
+    <Content Include="imagens\botoes\novoUsuario_0.gif" />
+    <Content Include="imagens\botoes\novoUsuario_1.gif" />
+    <Content Include="imagens\botoes\novoUsuario_2.gif" />
+    <Content Include="imagens\botoes\recebidas_0.png" />
+    <Content Include="imagens\botoes\recebidas_1.png" />
+    <Content Include="imagens\botoes\recebidas_2.png" />
+    <Content Include="imagens\botoes\relAprovados_0.gif" />
+    <Content Include="imagens\botoes\relAprovados_1.gif" />
+    <Content Include="imagens\botoes\relAprovados_2.gif" />
+    <Content Include="imagens\botoes\relBanca_0.gif" />
+    <Content Include="imagens\botoes\relBanca_1.gif" />
+    <Content Include="imagens\botoes\relBanca_2.gif" />
+    <Content Include="imagens\botoes\relDocs_0.gif" />
+    <Content Include="imagens\botoes\relDocsData_0.gif" />
+    <Content Include="imagens\botoes\relDocsData_1.gif" />
+    <Content Include="imagens\botoes\relDocsData_2.gif" />
+    <Content Include="imagens\botoes\relDocs_1.gif" />
+    <Content Include="imagens\botoes\relDocs_2.gif" />
+    <Content Include="imagens\botoes\relOrientadores_0.gif" />
+    <Content Include="imagens\botoes\relOrientadores_1.gif" />
+    <Content Include="imagens\botoes\relOrientadores_2.gif" />
+    <Content Include="imagens\botoes\relSituacao_0.gif" />
+    <Content Include="imagens\botoes\relSituacao_1.gif" />
+    <Content Include="imagens\botoes\relSituacao_2.gif" />
+    <Content Include="imagens\icones\avisos.png" />
+    <Content Include="imagens\icones\doc.png" />
+    <Content Include="imagens\icones\email_enviados.png" />
+    <Content Include="imagens\icones\email_recebidos.png" />
+    <Content Include="imagens\icones\evento.png" />
+    <Content Include="imagens\icones\file.png" />
+    <Content Include="imagens\icones\img_consultar.gif" />
+    <Content Include="imagens\icones\img_email.png" />
+    <Content Include="imagens\icones\img_env.png" />
+    <Content Include="imagens\icones\img_new_msg.png" />
+    <Content Include="imagens\icones\img_receb.png" />
+    <Content Include="imagens\icones\pasta.png" />
+    <Content Include="imagens\icones\pdf.png" />
+    <Content Include="imagens\masterPage\banca_final.png" />
+    <Content Include="imagens\masterPage\calendario.png" />
+    <Content Include="imagens\masterPage\como_estou.png" />
+    <Content Include="imagens\masterPage\help.png" />
+    <Content Include="imagens\masterPage\loader-red.gif" />
+    <Content Include="imagens\masterPage\loading2.gif" />
+    <Content Include="imagens\masterPage\login.png" />
+    <Content Include="imagens\masterPage\orientadores.png" />
+    <Content Include="imagens\masterPage\programese.png" />
+    <Content Include="imagens\masterPage\propostas.png" />
+    <Content Include="imagens\masterPage\sgtcc.png" />
+    <Content Include="imagens\menu\menuAgenda_0.png" />
+    <Content Include="imagens\menu\menuAgenda_1.png" />
+    <Content Include="imagens\menu\menuAgenda_2.png" />
+    <Content Include="imagens\menu\menuArquivos_0.png" />
+    <Content Include="imagens\menu\menuArquivos_1.png" />
+    <Content Include="imagens\menu\menuArquivos_2.png" />
+    <Content Include="imagens\menu\menuAvisos_0.png" />
+    <Content Include="imagens\menu\menuAvisos_1.png" />
+    <Content Include="imagens\menu\menuAvisos_2.png" />
+    <Content Include="imagens\menu\menuConfig_0.png" />
+    <Content Include="imagens\menu\menuConfig_1.png" />
+    <Content Include="imagens\menu\menuConfig_2.png" />
+    <Content Include="imagens\menu\menuCorreio_0.png" />
+    <Content Include="imagens\menu\menuCorreio_1.png" />
+    <Content Include="imagens\menu\menuCorreio_2.png" />
+    <Content Include="imagens\menu\menuDownloads_0.png" />
+    <Content Include="imagens\menu\menuDownloads_1.png" />
+    <Content Include="imagens\menu\menuDownloads_2.png" />
+    <Content Include="imagens\menu\menuHome_0.png" />
+    <Content Include="imagens\menu\menuHome_1.png" />
+    <Content Include="imagens\menu\menuHome_2.png" />
+    <Content Include="imagens\menu\menuMateria_0.png" />
+    <Content Include="imagens\menu\menuMateria_1.png" />
+    <Content Include="imagens\menu\menuMateria_2.png" />
+    <Content Include="imagens\menu\menuTcc_0.png" />
+    <Content Include="imagens\menu\menuTcc_1.png" />
+    <Content Include="imagens\menu\menuTcc_2.png" />
+    <Content Include="imagens\menu\menuUsuarios_0.png" />
+    <Content Include="imagens\menu\menuUsuarios_1.png" />
+    <Content Include="imagens\menu\menuUsuarios_2.png" />
+    <Content Include="site\admin\Configuracoes.aspx" />
+    <Content Include="site\comum\EventoAgenda.aspx" />
+    <Content Include="site\admin\DefinirCoordenador.aspx" />
+    <Content Include="site\coordenador\EditarBanca.aspx" />
+    <Content Include="site\coordenador\EditarTCC.aspx" />
+    <Content Include="site\coordenador\GerenciarBanca.aspx" />
+    <Content Include="site\coordenador\GerenciarTCC.aspx" />
+    <Content Include="site\coordenador\GerenciarAvisos.aspx" />
+    <Content Include="site\coordenador\MainTCC.aspx" />
+    <Content Include="site\coordenador\GerenciarUsuarios.aspx" />
+    <Content Include="site\coordenador\NovaBanca.aspx" />
+    <Content Include="site\coordenador\NovoTCC.aspx" />
+    <Content Include="site\coordenador\Relatorios.aspx" />
+    <Content Include="site\coordenador\RelatoriosPorData.aspx" />
+    <Content Include="site\coordenador\VisualizaRelatorio.aspx" />
+    <Content Include="site\erro\Erro.aspx" />
+    <Content Include="site\publico\Materia.aspx" />
+    <Content Include="site\publico\DatasImportantes.aspx" />
+    <Content Include="site\publico\Defesa.aspx" />
+    <Content Include="site\publico\Proposta.aspx" />
+    <Content Include="site\publico\Orientadores.aspx" />
+    <Content Include="site\publico\RecuperarSenha.aspx" />
+    <Content Include="site\publico\Situacao.aspx" />
+    <Content Include="site\publico\VisualizarAviso.aspx" />
+    <Content Include="UserControls\Calendario.ascx" />
+    <Content Include="UserControls\GridAvisos.ascx" />
+    <Content Include="UserControls\GridGerenciarTcc.ascx" />
+    <Content Include="UserControls\GridMensagensEnviadas.ascx" />
+    <Content Include="UserControls\GridMensagensRecebidas.ascx" />
+    <Content Include="UserControls\GridOrientadores.ascx" />
+    <Content Include="UserControls\GridSituacaoAluno.ascx" />
+    <Content Include="UserControls\ListarUltimosAvisos.ascx" />
+    <Content Include="UserControls\MapSite.ascx" />
+    <Content Include="UserControls\Menu.ascx" />
+    <Content Include="Default.aspx" />
+    <Content Include="site\Download.aspx" />
+    <Content Include="imagens\botoes\botao_azul01.gif" />
+    <Content Include="imagens\botoes\botao_azul02.gif" />
+    <Content Include="imagens\botoes\botao_cinza.gif" />
+    <Content Include="imagens\botoes\botao_laranja.gif" />
+    <Content Include="imagens\botoes\botao_laranja_escuro.gif" />
+    <Content Include="imagens\botoes\botao_laranja_peq.gif" />
+    <Content Include="imagens\icones\edititem.gif" />
+    <Content Include="imagens\icones\img_alta_pri.png" />
+    <Content Include="imagens\icones\img_baixa_pri.png" />
+    <Content Include="imagens\icones\img_hmail.png" />
+    <Content Include="imagens\icones\img_hpri.png" />
+    <Content Include="imagens\icones\img_mail_close.png" />
+    <Content Include="imagens\icones\img_mail_open.png" />
+    <Content Include="imagens\masterPage\bg.gif" />
+    <Content Include="imagens\masterPage\footer.gif" />
+    <Content Include="imagens\masterPage\header.gif" />
+    <Content Include="imagens\icones\delete.gif" />
+    <Content Include="imagens\icones\folder.png" />
+    <Content Include="imagens\icones\raiz.gif" />
+    <Content Include="imagens\masterPage\logo.png" />
+    <Content Include="imagens\masterPage\r1_c1.jpg" />
+    <Content Include="imagens\masterPage\r1_c2.jpg" />
+    <Content Include="imagens\masterPage\r1_c3.jpg" />
+    <Content Include="imagens\masterPage\r2_c1.jpg" />
+    <Content Include="imagens\masterPage\r2_c1_1.jpg" />
+    <Content Include="imagens\masterPage\r2_c2.jpg" />
+    <Content Include="imagens\masterPage\r2_c3.jpg" />
+    <Content Include="imagens\masterPage\r2_c3_1.jpg" />
+    <Content Include="imagens\masterPage\r3_c1.jpg" />
+    <Content Include="imagens\masterPage\r3_c2.jpg" />
+    <Content Include="imagens\masterPage\r3_c3.jpg" />
+    <Content Include="javascript\funcoes.js" />
+    <Content Include="javascript\pngfix.js" />
+    <Content Include="site\comum\Agenda.aspx" />
+    <Content Include="site\comum\Correio.aspx" />
+    <Content Include="site\comum\Perfil.aspx" />
+    <Content Include="site\comum\NovaMensagem.aspx" />
+    <Content Include="site\comum\VisualizarMensagem.aspx" />
+    <Content Include="site\coordenador\EditarAviso.aspx" />
+    <Content Include="site\coordenador\GerenciarArquivos.aspx" />
+    <Content Include="site\coordenador\NovoAviso.aspx" />
+    <Content Include="site\coordenador\NovoUsuario.aspx" />
+    <Content Include="site\publico\Home.aspx" />
+    <Content Include="site\publico\Login.aspx" />
+    <Content Include="site\publico\Downloads.aspx" />
+    <Content Include="UserControls\ListarUltimosEventosAgenda.ascx" />
+    <Content Include="UserControls\Header.ascx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="App_Data\" />
+    <Folder Include="Arquivos\" />
+    <Folder Include="site\professor\" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.VisualBasic.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\VisualStudio\v9.0\WebApplications\Microsoft.WebApplication.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>False</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>9526</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>
+          </IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+</Project>

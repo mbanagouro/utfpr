@@ -1,0 +1,92 @@
+﻿<%@ Master Language="VB" AutoEventWireup="false" CodeBehind="Template.master.vb" Inherits="UTFPR.SGTCC.WebInterface.Template" %>
+
+<%@ Register src="UserControls/Header.ascx" tagname="Header" tagprefix="uc1" %>
+<%@ Register src="UserControls/Menu.ascx" tagname="Menu" tagprefix="uc1" %>
+<%@ Register src="UserControls/MapSite.ascx" tagname="MapSite" tagprefix="uc1" %>
+
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" >
+<head runat="server">
+    <title>SGTCC - Sistema Gerenciador de Trabalho de Concluso de Curso</title>
+
+    <script src="javascript/funcoes.js" type="text/javascript"></script>   
+    <link href="App_Themes/Default/estilos.css" rel="stylesheet" type="text/css" />
+
+    <!--[if lt IE 7]>
+	<script defer src="javascript/pngfix.js" type="text/javascript"></script>
+	<![endif]-->
+    
+</head>
+<body>
+
+<form id="formPrincipal" runat="server">
+
+    <asp:ScriptManager ID="ScriptManager1" runat="server" EnableScriptGlobalization="true" /> 
+
+    <!-- Cabeçalho -->
+    <uc1:Header ID="Header1" runat="server" />
+        
+    <!-- Menu de navegação -->
+    <div id="menuBar">
+	    <uc1:Menu ID="MenuNav" runat="server" />
+	</div>	    
+ 
+    <!-- Página -->
+    <div id="mainContent" >
+        <table id="caixa" cellpadding="0" cellspacing="0">
+            <!-- Navegação caixa -->
+            <tr>
+                <td id="r1_c1"></td>
+                <td id="r1_c2"><uc1:MapSite ID="MapSite1" runat="server" /></td>
+                <td id="r1_c3"></td>
+            </tr>
+            
+            <!-- Conteúdo caixa -->
+            <tr>
+                <td id="r2_c1" valign="top">
+                    <img src="<% =Me.ResolveClientUrl("~/imagens/masterPage/r2_c1_1.jpg") %>" alt=" " />
+                </td>
+                <td id="r2_c2" valign="top">
+                    <asp:UpdatePanel ID="updPanel" runat="server">
+                        <ContentTemplate>
+	                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+	                        </asp:ContentPlaceHolder>	                       
+                    </ContentTemplate>
+                </asp:UpdatePanel>  	                        
+                </td>
+                <td id="r2_c3" valign="top">
+                    <img src="<% =Me.ResolveClientUrl("~/imagens/masterPage/r2_c3_1.jpg") %>" alt=" " />
+                </td>
+            </tr>
+            
+            <!-- Rodapé caixa -->
+            <tr>
+                <td id="r3_c1"></td>
+                <td id="r3_c2"></td>
+                <td id="r3_c3"></td>
+            </tr>
+        </table>
+    </div>
+        
+    <!-- Rodapé --> 
+    <div id="footer">
+        <div id="about">Universidade Tecnológica Federal do Paraná - Avenida Alberto Carazzai. Número: 1640. CEP: 86300-000 <br />
+        (Desenvolvido por Bruno Capel & Michel Banagouro)</div>
+    </div>      
+    
+    <asp:UpdateProgress ID="UpdateProgress1" DisplayAfter="500" runat="server">
+        <ProgressTemplate>
+            <div id="backgroundProgress" class="backgroundFilter"></div>
+            <div id="processMessage">
+                <asp:Image runat="server" id="Image1" ImageUrl="~/imagens/masterPage/loading2.gif" Width="28" Height="28" />
+                <br />
+                Processando...
+            </div>
+        </ProgressTemplate>
+    </asp:UpdateProgress>    
+
+</form>
+</body>
+</html>

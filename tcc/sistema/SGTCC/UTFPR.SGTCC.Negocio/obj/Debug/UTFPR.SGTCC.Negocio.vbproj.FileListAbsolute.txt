@@ -1,0 +1,73 @@
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.dll
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.pdb
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.xml
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\Microsoft.Practices.ObjectBuilder.dll
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\ResolveAssemblyReference.cache
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.Resources.resources
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.vbproj.GenerateResource.Cache
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.dll
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.xml
+D:\MEUS PROJETOS\Projetos\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.pdb
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.dll
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.pdb
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.xml
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.dll
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.dll
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Common.xml
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\Microsoft.Practices.EnterpriseLibrary.Data.xml
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\ResolveAssemblyReference.cache
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.Resources.resources
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.vbproj.GenerateResource.Cache
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.dll
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.xml
+D:\PESSOAL\TCC\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.pdb
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.dll
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.pdb
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.xml
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.Resources.resources
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.dll
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.xml
+C:\Documents and Settings\Administrador\Desktop\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.pdb
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.pdb
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.xml
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\ResolveAssemblyReference.cache
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.Resources.resources
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.vbproj.GenerateResource.Cache
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.xml
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.pdb
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.dll
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.pdb
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.xml
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.Resources.resources
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.dll
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.xml
+C:\Documents and Settings\Administrador\Desktop\teste\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.pdb
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.dll
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.pdb
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.xml
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.Resources.resources
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.vbproj.GenerateResource.Cache
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.dll
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.xml
+C:\Documents and Settings\João Piotto\Desktop\Sistema\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.pdb
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.pdb
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.Negocio\bin\Debug\UTFPR.SGTCC.Negocio.xml
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\ResolveAssemblyReference.cache
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.Resources.resources
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.vbproj.GenerateResource.Cache
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.dll
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.xml
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.pdb
+D:\MEUS PROJETOS\Projetos\Trabalho de Conclusão de Curso\Sistema\SGTCC\UTFPR.SGTCC.Negocio\obj\Debug\UTFPR.SGTCC.Negocio.tableColumns.resources

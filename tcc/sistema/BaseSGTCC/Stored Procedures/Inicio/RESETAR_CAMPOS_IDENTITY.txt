@@ -1,0 +1,3 @@
+
+
+DBCC CHECKIDENT ([tabela], RESEED, [numero])

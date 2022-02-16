@@ -1,0 +1,60 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    
+    <siteMapNode url="~/Home.aspx" title="Home"  description="Home">
+      
+      <!-- Sessão pública -->
+      <siteMapNode url="~/Materia.aspx" title="Sobre a Matéria" description="Informações sobre a Matéria">
+        <siteMapNode url="~/Proposta.aspx" title="Sobre a Proposta" description="Informações sobre a Proposta" />
+        <siteMapNode url="~/Defesa.aspx" title="Sobre a Defesa" description="Informações sobre a Defesa" />
+        <siteMapNode url="~/DatasImportantes.aspx" title="Datas Importantes" description="Datas Importantes" />
+        <siteMapNode url="~/Orientadores.aspx" title="Orientadores"  description="Orientadores" />
+        <siteMapNode url="~/Situacao.aspx" title="Situação do Aluno"  description="Situação do Aluno" />
+      </siteMapNode>
+      <siteMapNode url="~/Login.aspx" title="Login" description="Página de Login" />
+      <siteMapNode url="~/Downloads.aspx" title="Downloads" description="Downloads" />
+      <siteMapNode url="~/RecuperarSenha.aspx" title="Recuperar Senha" description="Recuperar Senha" />
+      <siteMapNode url="~/VisualizarAviso.aspx" title="Visualizar Aviso"  description="Visualizar Aviso" />
+
+      <!-- Sessão Comum -->
+      <siteMapNode url="~/Agenda.aspx" title="Agenda"  description="Agenda">
+        <siteMapNode url="~/EventoAgenda.aspx" title="Evento"  description="Evento" />
+      </siteMapNode>
+      <siteMapNode url="~/Correio.aspx" title="Correio Pessoal"  description="Correio Pessoal" >
+        <siteMapNode url="~/NovaMensagem.aspx" title="Nova Mensagem"  description="Nova Mensagem" />
+        <siteMapNode url="~/VisualizarMensagem.aspx" title="Visualizar Mensagem"  description="Visualizar Mensagem" />
+      </siteMapNode>
+      <siteMapNode url="~/Perfil.aspx" title="Perfil do Usuário"  description="Perfil" />
+
+      <!-- Sessão do Coordenador -->
+      <siteMapNode url="~/MainTcc.aspx" title="TCC"  description="TCC" >
+        <siteMapNode url="~/GerenciarTcc.aspx" title="Gerenciar TCC"  description="Gerenciar TCC" >
+          <siteMapNode url="~/NovoTCC.aspx" title="Novo TCC"  description="Novo TCC" />
+          <siteMapNode url="~/EditarTCC.aspx" title="Editar TCC"  description="Editar TCC" />
+          <siteMapNode url="~/GerenciarBanca.aspx" title="Gerenciar Banca"  description="Gerenciar Banca" >
+            <siteMapNode url="~/NovaBanca.aspx" title="Nova Banca"  description="Nova Banca" />
+            <siteMapNode url="~/EditarBanca.aspx" title="Editar Banca"  description="Editar Banca" />
+          </siteMapNode>
+        </siteMapNode>
+        <siteMapNode url="~/Relatorios.aspx" title="Relatorios"  description="Relatórios" >
+          <siteMapNode url="~/RelatoriosPorData.aspx" title="Por Data"  description="Por Data" >
+            <siteMapNode url="~/VisualizaRelatorio.aspx" title="Visualização de Relatórios"  description="Visualização de Relatórios" />
+          </siteMapNode>
+        </siteMapNode>
+      </siteMapNode>
+      <siteMapNode url="~/GerenciarUsuarios.aspx" title="Gerenciar Usuário"  description="Gerenciar Usuário" >
+        <siteMapNode url="~/NovoUsuario.aspx" title="Cadastro Usuário"  description="Cadastro Usuário" />
+      </siteMapNode>
+      <siteMapNode url="~/GerenciarArquivos.aspx" title="Gerenciar Arquivos"  description="Gerenciar Arquivos" />
+      <siteMapNode url="~/GerenciarAvisos.aspx" title="Gerenciar Avisos"  description="Listar Avisos" >
+        <siteMapNode url="~/NovoAviso.aspx" title="Novo Aviso"  description="Novo Aviso" />
+        <siteMapNode url="~/EditarAviso.aspx" title="Editar Aviso"  description="Editar Aviso" />
+      </siteMapNode>
+      
+      <!-- Sessão do Administrador -->
+      <siteMapNode url="~/Configuracoes.aspx" title="Configurações"  description="Configurações" >
+        <siteMapNode url="~/DefinirCoordenador.aspx" title="Definir Coordenador"  description="Definir Coordenador" />
+      </siteMapNode>
+      
+    </siteMapNode>
+</siteMap>

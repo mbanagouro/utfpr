@@ -1,0 +1,264 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Agenda" xml:space="preserve">
+    <value>~/Agenda.aspx</value>
+    <comment>Agenda Pessoal</comment>
+  </data>
+  <data name="Configuracoes" xml:space="preserve">
+    <value>~/Configuracoes.aspx</value>
+    <comment>Configuracoes Administrador</comment>
+  </data>
+  <data name="Correio" xml:space="preserve">
+    <value>~/Correio.aspx</value>
+    <comment>Correio</comment>
+  </data>
+  <data name="DatasImportantes" xml:space="preserve">
+    <value>~/DatasImportantes.aspx</value>
+    <comment>Datas Importantes</comment>
+  </data>
+  <data name="Defesa" xml:space="preserve">
+    <value>~/Defesa.aspx</value>
+    <comment>Sobre a Defesa final</comment>
+  </data>
+  <data name="DefinirCoordenador" xml:space="preserve">
+    <value>~/DefinirCoordenador.aspx</value>
+    <comment>Definir Coordenador</comment>
+  </data>
+  <data name="Downloads" xml:space="preserve">
+    <value>~/Downloads.aspx</value>
+    <comment>Downloads</comment>
+  </data>
+  <data name="EditarAviso" xml:space="preserve">
+    <value>~/EditarAviso.aspx</value>
+    <comment>Editar Aviso</comment>
+  </data>
+  <data name="EditarBanca" xml:space="preserve">
+    <value>~/EditarBanca.aspx</value>
+    <comment>Editar Banca</comment>
+  </data>
+  <data name="EditarTCC" xml:space="preserve">
+    <value>~/EditarTCC.aspx</value>
+    <comment>Editar TCC</comment>
+  </data>
+  <data name="EventoAgenda" xml:space="preserve">
+    <value>~/EventoAgenda.aspx</value>
+    <comment>Evendo da Agenda</comment>
+  </data>
+  <data name="GerenciarArquivos" xml:space="preserve">
+    <value>~/GerenciarArquivos.aspx</value>
+    <comment>Gerenciar Arquivos</comment>
+  </data>
+  <data name="GerenciarAvisos" xml:space="preserve">
+    <value>~/GerenciarAvisos.aspx</value>
+    <comment>Gerenciar Avisos</comment>
+  </data>
+  <data name="GerenciarBanca" xml:space="preserve">
+    <value>~/GerenciarBanca.aspx</value>
+    <comment>Gerenciar Banca</comment>
+  </data>
+  <data name="GerenciarTCC" xml:space="preserve">
+    <value>~/GerenciarTCC.aspx</value>
+    <comment>Gerenciar TCC</comment>
+  </data>
+  <data name="GerenciarUsuarios" xml:space="preserve">
+    <value>~/GerenciarUsuarios.aspx</value>
+    <comment>Gerenciar Usuarios</comment>
+  </data>
+  <data name="Home" xml:space="preserve">
+    <value>~/Home.aspx</value>
+    <comment>Página inicial</comment>
+  </data>
+  <data name="Login" xml:space="preserve">
+    <value>~/Login.aspx</value>
+    <comment>Página de Login</comment>
+  </data>
+  <data name="mainTCC" xml:space="preserve">
+    <value>~/mainTCC.aspx</value>
+    <comment>Principal TCC</comment>
+  </data>
+  <data name="Materia" xml:space="preserve">
+    <value>~/Materia.aspx</value>
+    <comment>Sobre a Matéria</comment>
+  </data>
+  <data name="NovaBanca" xml:space="preserve">
+    <value>~/NovaBanca.aspx.aspx</value>
+    <comment>Nova Banca</comment>
+  </data>
+  <data name="NovaMensagem" xml:space="preserve">
+    <value>~/NovaMensagem.aspx</value>
+    <comment>Nova Mensagem</comment>
+  </data>
+  <data name="NovoAviso" xml:space="preserve">
+    <value>~/NovoAviso.aspx</value>
+    <comment>Novo Aviso</comment>
+  </data>
+  <data name="NovoTCC" xml:space="preserve">
+    <value>~/NovoTCC.aspx</value>
+    <comment>Novo TCC</comment>
+  </data>
+  <data name="NovoUsuario" xml:space="preserve">
+    <value>~/NovoUsuario.aspx</value>
+    <comment>Novo Usuario</comment>
+  </data>
+  <data name="Orientadores" xml:space="preserve">
+    <value>~/Orientadores.aspx</value>
+    <comment>Orientadores disponíveis</comment>
+  </data>
+  <data name="Perfil" xml:space="preserve">
+    <value>~/Perfil.aspx</value>
+    <comment>Perfil do Usuário</comment>
+  </data>
+  <data name="Proposta" xml:space="preserve">
+    <value>~/Proposta.aspx</value>
+    <comment>Sobre a Proposta</comment>
+  </data>
+  <data name="RecuperarSenha" xml:space="preserve">
+    <value>~/RecuperarSenha.aspx</value>
+    <comment>Recuperar senha</comment>
+  </data>
+  <data name="Relatorios" xml:space="preserve">
+    <value>~/Relatorios.aspx</value>
+    <comment>Relatorios</comment>
+  </data>
+  <data name="RelatoriosPorData" xml:space="preserve">
+    <value>~/RelatoriosPorData.aspx</value>
+    <comment>Relatorios Por Data</comment>
+  </data>
+  <data name="SituacaoAluno" xml:space="preserve">
+    <value>~/Situacao.aspx</value>
+    <comment>Situação do aluno</comment>
+  </data>
+  <data name="VisualizarMensagem" xml:space="preserve">
+    <value>~/VisualizarMensagem.aspx</value>
+    <comment>Visualizar Mensagem</comment>
+  </data>
+  <data name="VisualizaRelatorio" xml:space="preserve">
+    <value>~/VisualizaRelatorio.aspx</value>
+    <comment>Visualiza Relatorio</comment>
+  </data>
+  <data name="Download" xml:space="preserve">
+    <value>~/Download.aspx</value>
+    <comment>Download</comment>
+  </data>
+  <data name="VisualizarAviso" xml:space="preserve">
+    <value>~/VisualizarAviso.aspx</value>
+    <comment>Visualizar Aviso</comment>
+  </data>
+</root>

@@ -1,0 +1,450 @@
+﻿/*******************************************************************/
+/* Estilo da Master Page
+/*******************************************************************/
+
+/* Zera as configurações dos browsers
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+}
+*/
+
+a:link {text-decoration: none;}
+a:visited {text-decoration: none;}
+a:hover {text-decoration: underline;}
+a:active {text-decoration: none;}
+
+html, body, form {
+	height: 100%;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background: url(../../imagens/masterPage/bg.gif) repeat-x top center #EDEDED;
+}
+
+#logo {
+    background-image: url(../../imagens/masterPage/logo.png);
+    background-repeat: no-repeat;	
+	width: 178px;
+	height: 91px;
+	position: absolute;
+	top: 9px;
+	left: 7px;
+}
+
+#headerBar {
+	height: 93px;
+	background-image: url('../../imagens/masterPage/header.gif');
+	background-repeat: repeat-x;
+	text-align: right;
+	padding-top: 5px;
+	padding-right: 10px;	
+}
+
+#headerBar a {
+    color: HighlightText; 
+    font-weight: bolder;
+}
+
+#menuBar {
+	clear: both;
+	width: auto;
+	float: right;
+}
+
+#mainContent {
+	height: auto;
+	clear: both;	
+}
+
+#footer {
+	width: 100%;
+	height: 34px;
+	background-image: url(../../imagens/masterPage/footer.gif);
+	background-repeat: repeat-x;	
+    /*position: absolute;*/
+    text-align: center;
+    bottom: 0px;
+    clear: both;
+}
+
+#about {
+    width: 100%;
+    color: White;
+    text-align: center;
+    padding-top: 5px; 
+    font-family: Verdana;
+    font-variant: small-caps;
+    font-size: 10px;    
+}
+
+#map {
+	height: 20px;
+	margin-left: auto; 
+	margin-right: auto;
+}
+
+/*............HACK COM CORREÇÕES PARA O IE...............
+* HTML #footer 
+{ 
+	margin-bottom:2px; 
+	bottom:-1px; 
+}*/
+
+.backgroundFilter {
+	position: absolute;
+    top: 0px; 
+    bottom: 0px; 
+    left: 0px;
+    right: 0px;
+    overflow: hidden; 
+    padding: 0px 0px 0px 0px; 
+    margin: 0px 0px 0px 0px; 
+    background-color: #000000; 
+    filter: alpha(opacity=20); 
+    opacity: 0.4; 
+    z-index: 1000; 
+    height: 100%;
+    width: 100%;
+}
+
+#processMessage  { 
+    padding-top: 5px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: Black;
+    text-align: center;
+	color: Black;
+	font-weight: bold;
+    height: 55px; 
+    width: 150px;
+    z-index: 1001;
+    background-color: HighlightText;
+    position: absolute; 
+    top: 43%;
+    left: 43%; 
+}
+
+/*******************************************************************/
+/* ESTILOS DOS BOTÕES
+/*******************************************************************/
+
+.cssBotaoLaranjaEscuro {
+	height: 17px;
+	width: 100px;
+	color: #FFFFFF;
+	font-size: 10px;
+	cursor: hand;
+	vertical-align: middle;
+	background-image: url(../../imagens/botoes/botao_laranja_escuro.gif);
+	background-color: transparent;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	font-weight: bold;
+}
+
+.cssBotaoLaranja {
+	height: 17px;
+	width: 100px;
+	color: #FFFFFF;
+	font-size: 10px;
+	cursor: hand;
+	vertical-align: middle;
+	background-image: url(../../imagens/botoes/botao_laranja.gif);
+	background-color: transparent;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	font-weight: bold;
+}
+
+.cssBotaoLaranjaPequeno {
+	height: 17px;
+	width: 60px;
+	color: #FFFFFF;
+	font-size: 10px;
+	cursor: hand;
+	vertical-align: middle;
+	background-image: url(../../imagens/botoes/botao_laranja_peq.gif);
+	background-color: transparent;
+	border-top-style: none;
+	border-right-style: none;
+	border-left-style: none;
+	border-bottom-style: none;
+	font-weight: bold;
+}
+
+/*******************************************************************/
+/* ESTILOS DO CALENDÁRIO
+/*******************************************************************/
+
+.Calendar {
+   
+}
+
+.SelectedDayStyle {
+
+}
+
+.DayStyle {
+
+}
+
+.NextPrevStyle {
+
+}
+
+.DayHeaderStyle {
+
+}
+
+.TitleStyle {
+
+}
+
+.OtherMonthDayStyle {
+
+}
+
+.cssMarcaEvento {
+    background-image: url(../../imagens/icones/evento.png);
+    background-repeat: no-repeat;
+    z-index: 100;
+    cursor: hand;
+}
+
+/*******************************************************************/
+/* ESTILOS DO GRID
+/*******************************************************************/
+
+.cssGridGeral {
+	width: 100%;
+	color: #333333;
+}
+
+.cssGridFooter {
+	background-color: #5D7B9D;
+	color: white;
+	font-weight: bold;
+}
+    
+.cssGridRow {
+	color: #333333;
+	background-color: #F7F6F3;
+}   
+
+.cssGridSelectedRow {
+	background-color: #E2DED6;
+	color: #333333;
+	font-weight: bold;
+}
+
+.cssGridPager {
+	background-color: #284775;	
+	color: white;
+	text-align: center;
+}
+
+.cssGridHeader {
+	background-color: #EFC45A;
+	color: black;
+	font-weight: bold;
+}
+
+.cssGridFooter {
+	background-color: #EFC45A;
+	color: black;
+	font-weight: bold;
+	height: 20px;
+}
+
+.cssGridEditRow {
+	background-color: #999999;
+}
+
+.cssAlternatingRow {
+	background-color: white;
+	color: #284775;
+}
+
+/*******************************************************************/
+/* ESTILOS DOS INPUTS
+/*******************************************************************/
+
+.cssTextBox {
+	border: 1px solid #C7C7C7;
+	color: black;
+	font-size: 11px;
+	background-color: #FFFFFF;
+}
+
+/*******************************************************************/
+/* ESTILOS DAS TABELAS
+/*******************************************************************/
+
+.cssTabela {
+	height: 100%;
+	width: 100%;
+	background-color: #F0F3F8;
+	border-right: #b1b1b1 1px solid;
+	border-top: #b1b1b1 1px solid;
+	border-left: #b1b1b1 1px solid;
+	border-bottom: #b1b1b1 1px solid;
+}
+
+.cssTabelaSiteMap {
+	width: 100%;
+	border-left: #b1b1b1 1px solid;
+	border-bottom: #b1b1b1 1px solid;
+}
+
+#caixa {
+    width: 100%;
+    height: 449px;
+    /*bottom: 50px;*/
+    border-width: 0px;
+}
+
+/* Linha 1 */
+#r1_c1 {
+    background-image: url(../../imagens/masterPage/r1_c1.jpg);
+    width: 22px;
+    height: 48px;
+}
+
+#r1_c2 {
+    background-image: url(../../imagens/masterPage/r1_c2.jpg);
+    height: 48px;    
+    background-repeat: repeat-x;    
+}
+
+#r1_c3 {
+    background-image: url(../../imagens/masterPage/r1_c3.jpg);
+    width: 22px;
+    height: 48px;
+}
+
+/* Linha 2 */
+#r2_c1 {
+    background-image: url(../../imagens/masterPage/r2_c1.jpg);
+    width: 22px;
+}
+
+#r2_c2 {
+    height: 100%;
+    background-image: url(../../imagens/masterPage/r2_c2.jpg); 
+    background-repeat: repeat-x;
+}
+
+#r2_c3 {
+    background-image: url(../../imagens/masterPage/r2_c3.jpg);
+    width: 22px;
+}
+
+/* Linha 3 */
+#r3_c1 {
+    background-image: url(../../imagens/masterPage/r3_c1.jpg);
+    width: 22px;
+    height: 16px;
+}
+
+#r3_c2 {
+    background-image: url(../../imagens/masterPage/r3_c2.jpg);
+    height: 16px;
+    background-repeat: repeat-x;   
+}
+
+#r3_c3 {
+    background-image: url(../../imagens/masterPage/r3_c3.jpg);
+    width: 22px;
+    height: 16px;
+}
+
+/*******************************************************************/
+/* ESTILOS DOS TEXTOS
+/*******************************************************************/
+
+body, tr, td, table, input, select, textarea, div, span, label, p {
+    font-family: Verdana, Arial;
+    font-size: 11px;
+    color: #000000;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+legend {
+	color: #666666;
+	font-family: Verdana;   
+	font-size: 13px;
+}
+
+/* Define o label de observações */
+.cssObserv {
+	font-size: 9px;
+	color: red;
+	font-weight: bold;
+	font-style:italic;
+}
+
+/* Define a formatação para mensagem de erro */
+.cssError {
+	font-weight:bold;
+	color:red;
+}
+
+.cssTitulo {
+    font-family: Verdana, Arial;
+    font-size: 15px;
+    color: Orange;
+    font-weight: bold;
+    text-decoration: none;
+    margin-bottom: 0px;
+}
+
+.cssLabel {
+	color: #666666;
+	font-family: Verdana;
+}
+
+ul, li {
+    color: #666666;
+	font-family: Verdana;
+	background-color: White;
+}
+
+/* Define o link quando tem mouse over */
+.cssLink {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+/*******************************************************************/
+/* ESTILOS DA TREEVIEW
+/*******************************************************************/
+
+.cssParentNode {
+	font-weight: normal;
+}
+
+.cssHoverNode {
+	text-decoration: underline;
+	color: #6666AA;
+}
+
+.cssSelectedNode {
+	font-weight: bold;
+	text-decoration: none;
+	padding-bottom: 0px;
+	padding: 0px 0px 0px 0px;
+}
+
+.cssNodeStyle {
+	color: black;
+	padding: 2px 2px 2px 2px;
+}
+

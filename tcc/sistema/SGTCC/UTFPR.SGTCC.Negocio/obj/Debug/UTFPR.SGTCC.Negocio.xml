@@ -1,0 +1,1149 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+UTFPR.SGTCC.Negocio
+</name>
+</assembly>
+<members>
+<member name="M:UTFPR.SGTCC.Negocio.Comum.DuasMatriculasSelecionadasException.#ctor(System.String)">
+	<summary>
+ Construtor padrão
+ </summary>
+	<param name="mensagem">Mensagem</param>
+</member><member name="T:UTFPR.SGTCC.Negocio.Comum.DuasMatriculasSelecionadasException">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: DuasMatriculasSelecionadas.                                     <BR/>
+ Objetivo.....:                                                                 <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="T:UTFPR.SGTCC.Negocio.Comum.INegocioPersistencia">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: INegocioPersistencia.                                           <BR/>
+ Objetivo.....: Prove uma interface para objetos de Persistência                <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.BancaNoMesmoHorarioException.#ctor(System.String)">
+	<summary>
+ Construtor padrão
+ </summary>
+	<param name="mensagem">Mensagem</param>
+</member><member name="T:UTFPR.SGTCC.Negocio.Comum.BancaNoMesmoHorarioException">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: BancaNoMesmoHorarioException.                                   <BR/>
+ Objetivo.....:                                                                 <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.ValidaException.#ctor(System.String)">
+	<summary>
+ Construtor padrão
+ </summary>
+	<param name="mensagem">Mensagem</param>
+</member><member name="T:UTFPR.SGTCC.Negocio.Comum.ValidaException">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: ValidaException.                                                <BR/>
+ Objetivo.....: Classe de exceção para validação.                               <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem._ultimoCodigoMensagem">
+	<summary>
+ Código da última mensagem inserida no banco
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem._codigoMensagem">
+	<summary>
+ Código
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem._matriculaRemetente">
+	<summary>
+ Matricula do Remetente
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem._assuntoMensagem">
+	<summary>
+ Assunto da Mensagem
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem._conteudoMensagem">
+	<summary>
+ Conteudo da Mensagem
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem._dataMensagem">
+	<summary>
+ Data da Mensagem
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem._prioridadeMensagem">
+	<summary>
+ Prioridade da Mensagem
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem._lidoMensagem">
+	<summary>
+ Indicador de Mensagem Lida
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem._lstUsuarios">
+	<summary>
+ Lista de Usuários
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem.#ctor">
+	<summary>
+ Construtor Padrão
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem.#ctor(System.Int32,System.String,System.String,UTFPR.SGTCC.Negocio.ModuloAP.PrioridadeMensagem,System.String,System.DateTime)">
+	<summary>
+ Construtor que cria uma mensagem vinculando o seu remetente
+ </summary>
+	<param name="matriculaRemetente">Número da matrícula</param>
+	<param name="nomeRemetente">Nome do usuário</param>
+	<param name="assunto">Assunto da mensagem</param>
+	<param name="prioridade">Código identificador de prioridade da mensagem</param>
+	<param name="conteudo">Conteúdo da mensagem</param>
+	<param name="data">Data de envio da mensagem</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem.#ctor(System.Int32,System.String,System.String,UTFPR.SGTCC.Negocio.ModuloAP.PrioridadeMensagem,System.String,System.DateTime,UTFPR.SGTCC.Negocio.ModuloAP.StatusMensagem)">
+	<summary>
+ Construtor que monta uma mensagem já existente vinculando o seu remetente
+ </summary>
+	<param name="matriculaRemetente">Número da matrícula</param>
+	<param name="nomeRemetente">Nome do usuário</param>
+	<param name="assunto">Assunto da mensagem</param>
+	<param name="prioridade">Código identificador de prioridade da mensagem</param>
+	<param name="conteudo">Conteúdo da mensagem</param>
+	<param name="data">Data de envio da mensagem</param>
+	<param name="lido">Código identificador de mensagem lida ou não lida</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem.EnviarMensagem(System.Int32,System.String,UTFPR.SGTCC.Negocio.ModuloAP.PrioridadeMensagem,System.String,System.Int32[])">
+	<summary>
+ Método que faz o envio da mensagem aos destintários
+ </summary>
+	<param name="matriculaRemetente">Número da matrícula</param>
+	<param name="assunto">Assunto da mensagem</param>
+	<param name="prioridade">Código identificador de prioridade da mensagem</param>
+	<param name="conteudo">Conteúdo da mensagem</param>
+	<param name="matriculaDestinatarios">Número de matrícula dos destinatários</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem.SelecionarRecebidas(System.Int32)">
+	<summary>
+ Função que retorna as mensagens recebidas
+ </summary>
+	<param name="matricula">Número da matrícula</param>
+	<returns>Lista de Mensagem</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem.SelecionarRecebidaPorCodigo(System.Int32)">
+	<summary>
+ Função que retorna uma mensagem recebida por meio do seu código identificador
+ </summary>
+	<param name="codMensagem">Código identificador da mensagem</param>
+	<returns>Objeto Mensagem</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem.SelecionarEnviadas(System.Int32)">
+	<summary>
+ Função que retorna as mensagens enviadas pelo Usuário
+ </summary>
+	<param name="matricula">Número da matrícula</param>
+	<returns>Lista de Mensagem</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem.SelecionarEnviadaPorCodigo(System.Int32)">
+	<summary>
+ Função que retorna uma mensagem enviada por meio do seu código identificador
+ </summary>
+	<param name="codMensagem">Código identificador da mensagem</param>
+	<returns>Objeto Mensagem</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem.VincularMensagem(System.Int32)">
+	<summary>
+ Método que associa a mensagem gravada no banco para o seu(s) destinatário(s)
+ </summary>
+	<param name="matriculaDestinatario">Número da matrícula</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem.Salvar">
+	<summary>
+ Método que persiste os dados da mensagem na base de dados
+ </summary>
+	<remarks>
+ Método implementado da inteface INegocioPersistencia
+ </remarks>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem.Atualizar">
+	<summary>
+ Método que atualiza os dados da mensagem na base de dados
+ </summary>
+	<remarks>
+ Método implementado da inteface INegocioPersistencia
+ </remarks>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem.ExcluirMensagem">
+	<summary>
+ Método que exclui a mensagem na base de dados
+ </summary>
+	<remarks>
+ Método implementado da inteface INegocioPersistencia
+ </remarks>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem.SelecionarDestinatarios(System.Int32)">
+	<summary>
+ Função que retorna o(s) destinatário(s) de uma determinada mensagem
+ </summary>
+	<param name="codMensagem">Código identificador da mensagem</param>
+	<returns>Lista de Usuario</returns>
+</member><member name="T:UTFPR.SGTCC.Negocio.ModuloAP.Mensagem">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: Mensagem.                                                       <BR/>
+ Objetivo.....: Classe responsável por gerenciar as mensagens entre os usuários.<BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+	<remarks>Classe que implementa a interface INegocioPersistencia</remarks>
+</member><member name="T:UTFPR.SGTCC.Negocio.ModuloCA.TipoBanca">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: TipoBanca.                                                      <BR/>
+ Objetivo.....: Tipo de bancas disponíveis                                      <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="T:UTFPR.SGTCC.Negocio.Comum.TipoErro">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: TipoErro.                                                       <BR/>
+ Objetivo.....:                                                                 <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="P:UTFPR.SGTCC.Negocio.My.Resources.tableColumns.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:UTFPR.SGTCC.Negocio.My.Resources.tableColumns.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="T:UTFPR.SGTCC.Negocio.My.Resources.tableColumns">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.Comum.Professor._quantidadeOrientandos">
+	<summary>
+ Quantidade de alunos orientandos
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.Professor.#ctor">
+	<summary>
+	</summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.Professor.#ctor(System.Int32,System.String)">
+	<summary>
+	</summary>
+	<param name="matricula"></param>
+	<param name="nome"></param>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.Professor.#ctor(System.String)">
+	<summary>
+	</summary>
+	<param name="nome"></param>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.Professor.AtualizarCoordenador(System.Int32)">
+	<summary>
+	</summary>
+	<param name="matricula"></param>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.Professor.SelecionarProfessores">
+	<summary>
+	</summary>
+	<returns></returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.Professor.SelecionarProfessorPorMatricula(System.Int32)">
+	<summary>
+	</summary>
+	<param name="matricula"></param>
+	<returns></returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.Professor.SelecionarOrientadores">
+	<summary>
+	</summary>
+	<returns></returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.Professor.SelecionarTodosProfessores">
+	<summary>
+	</summary>
+	<returns></returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.Professor.SelecionarCoordenadorAtual">
+	<summary>
+	</summary>
+	<returns></returns>
+</member><member name="T:UTFPR.SGTCC.Negocio.Comum.Professor">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: Professor.                                                      <BR/>
+ Objetivo.....: Classe de acesso as informações dos professores.                <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+	<remarks></remarks>
+</member><member name="T:UTFPR.SGTCC.Negocio.ModuloAP.PrioridadeMensagem">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: PrioridadeMensagem.                                             <BR/>
+ Objetivo.....: Fornece os tipos de prioridades disponíveis para uma mensagem.  <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.DuplicateKeyException.#ctor(System.String)">
+	<summary>
+ Construtor padrão
+ </summary>
+	<param name="mensagem">Mensagem</param>
+</member><member name="T:UTFPR.SGTCC.Negocio.Comum.DuplicateKeyException">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: DuplicateKeyException.                                          <BR/>
+ Objetivo.....: Classe de exceção para registro duplicado na base.              <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.Aluno.#ctor">
+	<summary>
+ Construtor padrão
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.Aluno.#ctor(System.Int32,System.String)">
+	<summary>
+ Construtor sobrecarregado
+ </summary>
+	<param name="matricula">número Matricula do usuário</param>
+	<param name="nome">Nome do usuário</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.Aluno.SelecionarTodosAlunos">
+	<summary>
+	</summary>
+	<returns></returns>
+</member><member name="T:UTFPR.SGTCC.Negocio.Comum.Aluno">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: Aluno.                                                          <BR/>
+ Objetivo.....: Classe de acesso as informações dos alunos.                     <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+	<remarks></remarks>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Estado._codigoEstado">
+	<summary>
+ Código
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Estado._nomeEstado">
+	<summary>
+ Nome do Estado
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Estado._siglaEstado">
+	<summary>
+ Sigla do Estado
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Estado.#ctor">
+	<summary>
+ Construtor Padrão
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Estado.#ctor(System.Int32)">
+	<summary>
+ Construtor da classe
+ </summary>
+	<param name="codEstado">Código do estado</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Estado.#ctor(System.Int32,System.String)">
+	<summary>
+ Construtor da classe
+ </summary>
+	<param name="codEstado">Código do estado</param>
+	<param name="nomeEstado">Nome do estado</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Estado.ListaEstados">
+	<summary>
+ Função que retorna as cidades referentes ao código do Estado informado.
+ </summary>
+	<returns>Retorna uma coleção de objetos Estado</returns>
+</member><member name="T:UTFPR.SGTCC.Negocio.ModuloAP.Estado">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: Estado.                                                         <BR/>
+ Objetivo.....: Responsável por manipular os estados existentes do território   <BR/>
+                nacional.                                                       <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.Security.#ctor">
+	<summary>
+ Essa classe possui um construtor privado pois ela não deve ser instanciada.
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.Security.Cifrar(System.String)">
+	<summary>
+ Função Responsável por Cifrar a sua String
+ </summary>
+	<param name="vstrTextToBeEncrypted">String a ser cifrada</param>
+	<returns>String cifrada</returns>
+	<remarks>
+ Use da seguinte forma: Cifrar("Palavra")
+ </remarks>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.Security.Decifrar(System.String)">
+	<summary>
+ Função Responsável por Decifrar a sua String Cifrada
+ </summary>
+	<param name="vstrStringToBeDecrypted">String a ser decifrada</param>
+	<returns>String decifrada</returns>
+	<remarks>
+ Use da seguinte forma: Decifrar("Palavra") 
+ </remarks>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.Security.TiraCaracteresNulos(System.String)">
+	<summary>
+ Função responsável por tirar os espaços em branco da variável a ser cifrada
+ </summary>
+	<param name="vstrStringWithNulls">String com os espaços a ser retirado</param>
+	<returns>String sem os espaços</returns>
+	<remarks>Esta função é chamada internamente </remarks>
+</member><member name="T:UTFPR.SGTCC.Negocio.Comum.Security">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: Security.                                                       <BR/>
+ Objetivo.....: Provê métodos para a segurança da aplicação.                    <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+	<remarks>Esta classe não pode ser instanciada</remarks>
+</member><member name="T:UTFPR.SGTCC.Negocio.ModuloCA.StatusTCC">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: StatusTCC.                                                      <BR/>
+ Objetivo.....: Status possiveis para um determinado TCC                        <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Arquivo._nome">
+	<summary>
+ Nome do arquivo
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Arquivo._caminhoFisico">
+	<summary>
+ Caminho físico do arquivo
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Arquivo._tipoItem">
+	<summary>
+ Tipo do Arquivo
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Arquivo._extensao">
+	<summary>
+ Extensão do arquivo
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Arquivo._tamanhoKB">
+	<summary>
+ Tamanho do arquivo
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Arquivo._dataCriacao">
+	<summary>
+ Data de Criação do arquivo
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Arquivo._somenteLeitura">
+	<summary>
+ Somente leitura
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Arquivo._icone">
+	<summary>
+ Ícone do arquivo
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Arquivo.#ctor">
+	<summary>
+ Construtor Padrão
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Arquivo.ObterArquivos(System.String)">
+	<summary>
+ Método que recupera os arquivos de um determinado diretório
+ </summary>
+	<param name="diretorio">Diretório que deseja-se obter os arquivos</param>
+	<returns>Lista de Arquivos</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Arquivo.ObterArquivos(System.String,System.String,System.IO.SearchOption)">
+	<summary>
+ Método que recupera os arquivos de um determinado diretório
+ </summary>
+	<param name="diretorio">Diretório que deseja-se obter os arquivos</param>
+	<param name="padraoBusca"></param>
+	<param name="opcaoBusca">Enumerador da opção de pesquisa</param>
+	<returns>Lista de Arquivos</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Arquivo.ObterDiretorios(System.String)">
+	<summary>
+ Método que recupera os diretórios de um determinado diretório
+ </summary>
+	<param name="diretorio">Diretório que deseja-se obter os arquivos</param>
+	<returns>Lista de diretórios</returns>
+</member><member name="T:UTFPR.SGTCC.Negocio.ModuloAP.Arquivo">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: Arquivo.                                                        <BR/>
+ Objetivo.....: Classe responsável pela manipulação dos arquivos.               <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Usuario._matriculaUsuario">
+	<summary>
+ Nº Matrícula
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Usuario._nomeUsuario">
+	<summary>
+ Nome do Usuário
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Usuario._emailUsuario">
+	<summary>
+ Email do Usuário
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Usuario._senhaUsuario">
+	<summary>
+ Senha do Usuário
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Usuario._telefoneUsuario">
+	<summary>
+ Nº Telefone
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Usuario._celularUsuario">
+	<summary>
+  Nº Celular
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Usuario._tipoUsuario">
+	<summary>
+  Tipo do Usuário
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Usuario._objCidade">
+	<summary>
+ Objeto Cidade
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Usuario.#ctor">
+	<summary>
+ Construtor Padrão
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Usuario.#ctor(System.Int32)">
+	<summary>
+ Construtor que cria um usuário com um código de matricula informados
+ </summary>
+	<param name="matricula">Número da matrícula</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Usuario.#ctor(System.String)">
+	<summary>
+ Construtor que cria um usuário com o nome informado
+ </summary>
+	<param name="nome">Nome do usuário</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Usuario.#ctor(System.Int32,System.String)">
+	<summary>
+ Construtor que cria um usuário com um código de matricula e nome informados
+ </summary>
+	<param name="matricula">Número da matrícula</param>
+	<param name="nome">Nome do usuário</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Usuario.CadastrarUsuario(System.Int32,System.String,System.String,System.String,System.String,UTFPR.SGTCC.Negocio.ModuloAP.TipoUsuario,System.Int32)">
+	<summary>
+ Método para cadastrar um novo usuário no sistema.
+ </summary>
+	<param name="matricula">Número da matrícula</param>
+	<param name="nome">Nome do usuário</param>
+	<param name="email">Endereço de Email</param>
+	<param name="telefone">Número do Telefone</param>
+	<param name="celular">Número do Celular</param>
+	<param name="tipo">Código identificador do tipo do usuário</param>
+	<param name="codigoCidade">Código identificador da cidade</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Usuario.AtualizarUsuario(System.Int32,System.String,System.String,System.String,System.String,System.Int32)">
+	<summary>
+ Método para atualizar os dados do usuário.
+ </summary>
+	<param name="matricula">Número da matrícula</param>
+	<param name="nome">Nome do usuário</param>
+	<param name="email">Endereço de Email</param>
+	<param name="telefone">Número do Telefone</param>
+	<param name="celular">Número do Celular</param>
+	<param name="codigoCidade">Código identificador da cidade</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Usuario.AtualizarSenha(System.Int32,System.String,System.String)">
+	<summary>
+ Método para redefinir a senha do usuário.
+ </summary>
+	<param name="matricula">Número da matrícula</param>
+	<param name="senhaAtual">Senha atual do usuário</param>
+	<param name="senhaNova">Nova senha informada pelo usuário</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Usuario.SelecionarUsuarioPorMatricula(System.Int32)">
+	<summary>
+ Função que retorna as informações de um determinado usuário por meio do
+ número da matrícula e senha.
+ </summary>
+	<param name="matricula">Número da matrícula</param>
+	<returns>Objeto Usuario</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Usuario.SelecionarUsuarioPorLogin(System.Int32,System.String)">
+	<summary>
+ Função que retorna as informações de um determinado usuário por meio do
+ número da matrícula e senha.
+ </summary>
+	<param name="matricula">Número da matrícula</param>
+	<param name="senha">Senha do usuário</param>
+	<returns>Objeto Usuario</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Usuario.SelecionarUsuarioPorMatriculaEmail(System.Int32,System.String)">
+	<summary>
+ Função que retorna as informações de um determinado usuário por meio do
+ número da matrícula e senha.
+ </summary>
+	<param name="matricula">Número da matrícula</param>
+	<param name="email">Email do usuário</param>
+	<returns>Objeto Usuario</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Usuario.RecuperaUsuario(System.Int32,System.String,System.String)">
+	<summary>
+ Função que retorna as informações de um determinado usuário por meio 
+ do número da matrícula.
+ </summary>
+	<param name="matricula">Número da matrícula</param>
+	<param name="senha">Parâmetro opcional: senha do usuário</param>
+	<param name="email">Parâmetro opcional: email do usuário</param>
+	<returns>Objeto Usuario</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Usuario.Salvar">
+	<summary>
+ Método que persiste os dados do usuário na base de dados
+ </summary>
+	<remarks>
+ Método implementado da inteface INegocioPersistencia
+ </remarks>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Usuario.Atualizar">
+	<summary>
+ Método que atualiza os dados do usuário na base de dados
+ </summary>
+	<remarks>
+ Método implementado da inteface INegocioPersistencia
+ </remarks>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Usuario.ExcluirUsuario">
+	<summary>
+ Método que exclui um usuário da base de dados
+ </summary>
+	<remarks>
+ Método implementado da inteface INegocioPersistencia
+ </remarks>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Usuario.IsSenhaAtual(System.String)">
+	<summary>
+ Método que valida se a senha atual informada pelo usuário é a mesma que
+ está cadastrada.
+ </summary>
+	<param name="senhaAtual">Senha atual do usuário</param>
+	<returns>Retorna True se a senha for a mesma da base, senão retorna False</returns>
+	<remarks></remarks>
+</member><member name="T:UTFPR.SGTCC.Negocio.ModuloAP.Usuario">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: Usuario.                                                        <BR/>
+ Objetivo.....: Classe responsável por manipular e acessar aos dados            <BR/>
+                dos usuários.                                                   <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="P:UTFPR.SGTCC.Negocio.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:UTFPR.SGTCC.Negocio.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:UTFPR.SGTCC.Negocio.My.Resources.Resources.Chave">
+	<summary>
+  Looks up a localized string similar to SGTCC.
+</summary>
+</member><member name="T:UTFPR.SGTCC.Negocio.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Cidade._codigoCidade">
+	<summary>
+ Código
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Cidade._nomeCidade">
+	<summary>
+ Nome da Cidade
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Cidade._objEstadoCidade">
+	<summary>
+ Objeto Estado
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Cidade.#ctor">
+	<summary>
+ Construtor Padrão
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Cidade.#ctor(System.Int32)">
+	<summary>
+ Construtor que cria uma nova cidade inicializando com seu código
+ </summary>
+	<param name="codCidade">Código da cidade</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Cidade.#ctor(System.Int32,System.String)">
+	<summary>
+ Construtor que cria uma nova cidade inicializando com seu código e nome
+ </summary>
+	<param name="codCidade">Código da cidade</param>
+	<param name="nomeCidade">Nome da cidade</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Cidade.ListaCidades(System.Int32)">
+	<summary>
+ Função que retorna as cidades referentes ao código do Estado informado.
+ </summary>
+	<param name="codigoEstado">Código identificador do estado</param>
+	<returns>Lista de Cidade</returns>
+</member><member name="T:UTFPR.SGTCC.Negocio.ModuloAP.Cidade">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: Cidade.                                                         <BR/>
+ Objetivo.....: Responsável por manipular as cidades existentes do território   <BR/>
+                nacional.                                                       <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.NotFoundException.#ctor(System.String)">
+	<summary>
+ Construtor padrão
+ </summary>
+	<param name="mensagem">Mensagem</param>
+</member><member name="T:UTFPR.SGTCC.Negocio.Comum.NotFoundException">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: NotFoundException.                                              <BR/>
+ Objetivo.....: Classe de exceção para registro não encontrado na base.         <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Evento._codigoEvento">
+	<summary>
+ Código
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Evento._dataEvento">
+	<summary>
+ Data do Evento
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Evento._descricaoEvento">
+	<summary>
+ Descrição do Evento
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Evento._nomeEvento">
+	<summary>
+ Nome do Evento
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Evento.objUsuario">
+	<summary>
+ Objeto Usuário
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Evento.#ctor">
+	<summary>
+ Construtor Padrão
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Evento.CadastrarEvento(System.Int32,System.String,System.String,System.DateTime)">
+	<summary>
+ Método para cadastrar um evento
+ </summary>
+	<param name="matriculaUsuario">Número da Matrícula do usuário</param>
+	<param name="nomeEvento">Nome do Evento</param>
+	<param name="descricaoEvento">Descrição do Evento</param>
+	<param name="dataEvento">Data do Evento</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Evento.AtualizarEvento(System.Int32,System.String,System.String,System.DateTime)">
+	<summary>
+ Método para atualizar um evento
+ </summary>
+	<param name="matriculaUsuario">Número da Matrícula do usuário</param>
+	<param name="nomeEvento">Nome do Evento</param>
+	<param name="descricaoEvento">Descrição do Evento</param>
+	<param name="dataEvento">Data do Evento</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Evento.ExcluirEvento(System.Int32,System.DateTime)">
+	<summary>
+ Método para excluir um evento
+ </summary>
+	<param name="matriculaUsuario">Número da Matrícula do usuário</param>
+	<param name="dataevento">Data do Evento</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Evento.SelecionarEventos(System.Int32)">
+	<summary>
+ Função que retorna os eventos de um determinado usuário
+ </summary>
+	<param name="matriculaUsuario">Número da Matrícula do usuário</param>
+	<returns>Lista de Eventos</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Evento.SelecionarProximosEventos(System.Int32)">
+	<summary>
+ Função que retorna os últimos eventos de um determinado usuário
+ </summary>
+	<param name="matriculaUsuario">Número da Matrícula do usuário</param>
+	<returns>Lista de Eventos</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Evento.SelecionarEventoPorData(System.Int32,System.DateTime)">
+	<summary>
+ Função que retorna um evento
+ </summary>
+	<param name="matriculaUsuario">Número da Matrícula do usuário</param>
+	<param name="dataEvento">Data do Evento</param>
+	<returns>Objeto Evento</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Evento.Atualizar">
+	<summary>
+ Método que atualiza um evento
+ </summary>
+	<remarks>Método implementado da interface INegocioPersistencia</remarks>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Evento.Excluir">
+	<summary>
+ Método que exclui um evento
+ </summary>
+	<remarks>Método implementado da interface INegocioPersistencia</remarks>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Evento.Salvar">
+	<summary>
+ Método que cadastra um novo evento
+ </summary>
+	<remarks>Método implementado da interface INegocioPersistencia</remarks>
+</member><member name="T:UTFPR.SGTCC.Negocio.ModuloAP.Evento">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: Evento.                                                         <BR/>
+ Objetivo.....: Classe responsável por gerenciar a agenda do usuário.           <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+	<remarks>Classe que implementa a interface INegocioPersistencia</remarks>
+</member><member name="T:UTFPR.SGTCC.Negocio.ModuloAP.TipoMensagem">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: TipoMensagem.                                                   <BR/>
+ Objetivo.....: Fornece os tipos de mensagens existentes.                       <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.Email.#ctor">
+	<summary>
+ Construtor Padrão
+ </summary>
+	<remarks></remarks>
+</member><member name="T:UTFPR.SGTCC.Negocio.Comum.Email">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: Email                                                           <BR/>
+ Objetivo.....: Classe responsável para envio de emails.                        <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloCA.Banca._tipoBanca">
+	<summary>
+ Tipo da Banca
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloCA.Banca._dataApresentacao">
+	<summary>
+ Data da Apresentação
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloCA.Banca._salaBanca">
+	<summary>
+ Local da apresentação
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloCA.Banca._objConvidado1">
+	<summary>
+ Professor Avaliador 01
+ </summary>
+	<remarks></remarks>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloCA.Banca._objConvidado2">
+	<summary>
+ Professor Avaliador 02
+ </summary>
+	<remarks></remarks>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloCA.Banca._objTCC">
+	<summary>
+ Objeto TCC
+ </summary>
+	<remarks></remarks>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.Banca.#ctor">
+	<summary>
+ Construtor Padrão
+ </summary>
+	<remarks></remarks>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.Banca.Atualizar">
+	<summary>
+ Método para atualizar uma Banca
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.Banca.Excluir">
+	<summary>
+ Método para exluir uma Banca
+ </summary>
+	<remarks></remarks>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.Banca.Salvar">
+	<summary>
+ Médoto para cadastro de uma Banca
+ </summary>
+	<remarks></remarks>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.Banca.BuscarQtdeBancasCadastradas">
+	<summary>
+ Função de busca de quantidade de bancas de um TCC já cadastrado no sistema
+ </summary>
+	<returns>Retorna numero intero com quantidade de bancas</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.Banca.VerificarDuplicidadeBanca">
+	<summary>
+ Função dpara Verificar se já existe uma banca cadastrada no horário informado
+ </summary>
+	<returns>Retorna um numero inteiro </returns>
+	<remarks>Caso seja retornado zeros, não existe banca cadastrada na data/horario informado. Diferente de zero, tratar como erro</remarks>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.Banca.BuscaBancaPorTipo(System.Int32,System.Int32)">
+	<summary>
+ Função de Busca de Banca por tipo (Proposta ou Defesa)
+ </summary>
+	<param name="tipoBanca">Tipo da Banca</param>
+	<param name="codigoTcc">Código do TCC</param>
+	<returns>retorna um objeto Banca</returns>
+</member><member name="T:UTFPR.SGTCC.Negocio.ModuloCA.Banca">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: Banca                                                           <BR/>
+ Objetivo.....: Responsável por gerenciar as Ações relacionado à Banca          <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloCA.TCC._codigoTCC">
+	<summary>
+ Código do TCC
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloCA.TCC._temaTCC">
+	<summary>
+ Tema
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloCA.TCC._statusTCC">
+	<summary>
+ Status
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloCA.TCC._dataInicio">
+	<summary>
+ Data de Início
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloCA.TCC._dataFim">
+	<summary>
+ Data de Entrega
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloCA.TCC._notaProposta">
+	<summary>
+ Nota da Proposta
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloCA.TCC._notaFinal">
+	<summary>
+ Nota final do TCC
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloCA.TCC._objAluno">
+	<summary>
+Objeto Aluno 
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloCA.TCC._objOrientador">
+	<summary>
+ Objeto Professor (Orientador)
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.TCC.#ctor">
+	<summary>
+ Construtor padrão
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.TCC.#ctor(System.Int32)">
+	<summary>
+ Construtor alternativo
+ </summary>
+	<param name="codigo">Codigo do TCC</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.TCC.AtualizarTCC">
+	<summary>
+ Método de atualização do TCC
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.TCC.ExcluirTCC">
+	<summary>
+ Método para exclusão de TCC (Não implementado)
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.TCC.Salvar">
+	<summary>
+ Método de persistencia de dados (Não implementado)
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.TCC.CadastrarTCC(System.Int32,System.Int32)">
+	<summary>
+ Método para cadastrar um TCC na base de dados
+ </summary>
+	<param name="matriculaAluno">Nº da Matrícula do Aluno</param>
+	<param name="matriculaOrientador">Nº da Matrícula do Professor</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.TCC.SelecionarTCCporCodigo(System.Int32)">
+	<summary>
+ Função para buscar um TCC pelo seu código
+ </summary>
+	<param name="codigo">Código do TCC</param>
+	<returns>Retorna objeto TCC carregado</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.TCC.BuscarCodigoAlunoPorTcc(System.Int32)">
+	<summary>
+ Buscar o aluno cadastrado em um TCC
+ </summary>
+	<param name="codigo">Código do TCC</param>
+	<returns>retorna um objeto Aluno</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.TCC.BuscarCodigoProfessorPorTcc(System.Int32)">
+	<summary>
+ Buscar o professor cadastrado em um TCC
+ </summary>
+	<param name="codigo">Código do TCC</param>
+	<returns>retorna um objeto Professor</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.TCC.SelecionarAlunoOrientadorTcc(System.Int32)">
+	<summary>
+ Função que retorna os aluno que estão vinculados ao orientador ou vice-versa
+ </summary>
+	<param name="matricula">Número da matrícula</param>
+	<returns>Retorna uma coleção de objetos usuários</returns>
+	<remarks>
+ Explicando melhor a função:
+ - Informando o número de matrícula de um usuário 'ALUNO', a função irá retornar
+   o orientador que está vinculado a este.
+ - Informando o número de matrícula de um usuário 'PROFESSOR', a função irá retornar
+   os alunos que estão vinculados a este.
+ </remarks>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.TCC.SelecionarTodosTCC">
+	<summary>
+ Método para buscar TODOS os TCC's cadastrados na base de dados
+ </summary>
+	<returns>Retorna uma lista de TCC's</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.TCC.SelecionarFiltradoTodosTCC(System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ Função de busca de TCC, filtrando os dados
+ </summary>
+	<param name="tema">Tema</param>
+	<param name="status01">StatusTCC = 1</param>
+	<param name="status02">StatusTCC = 2</param>
+	<param name="status03">StatusTCC = 3</param>
+	<param name="status04">StatusTCC = 4</param>
+	<param name="status05">StatusTCC = 5</param>
+	<param name="matricula">Código de Matrícula Aluno/Professor</param>
+	<returns>Retorna uma lista de TCC's</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.TCC.ConsultaSituacaoTcc(System.String,UTFPR.SGTCC.Negocio.ModuloCA.StatusTCC)">
+	<summary>
+ Buscar todos os alunos de um determinado status de TCC
+ </summary>
+	<param name="nomeUsuario">Nome do Aluno</param>
+	<param name="statusTcc">Status</param>
+	<returns></returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.TCC.BuscarDadosRelatorioTCC(System.DateTime,System.DateTime)">
+	<summary>
+ Função que retorno todos os campos para montagem do relatório de TCC/Banca
+ </summary>
+	<param name="dataInicio">Data Inicio filtro</param>
+	<param name="dataFim">Data Fim filtro</param>
+	<returns>Retorno um dataset para carregar o report</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloCA.TCC.BuscarDadosRelatorioAprovados(System.DateTime,System.DateTime)">
+	<summary>
+ Função que retorno todos os campos para montagem do relatório de Aprovados
+ </summary>
+	<param name="dataInicio">Data Inicio filtro</param>
+	<param name="dataFim">Data Fim filtro</param>
+	<returns>Retorno um dataset para carregar o report de Aprovados</returns>
+</member><member name="T:UTFPR.SGTCC.Negocio.ModuloCA.TCC">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: TCC                                                             <BR/>
+ Objetivo.....: Responsável por gerenciar as Ações relacionados ao TCC          <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.Comum.Log.caminhoLog">
+	<summary>
+ Caminho físico do log
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.Comum.Log.nomeArquivoLog">
+	<summary>
+ Constante com o nome do arquivo de log
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.Log.#ctor">
+	<summary>
+ Construtor padrão
+ </summary>
+	<remarks>Esta classe não pode ser instanciada</remarks>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.Log.GravarLog(System.String,System.String,System.String,UTFPR.SGTCC.Negocio.Comum.TipoErro)">
+	<summary>
+ Método que grava um log de erro
+ </summary>
+	<param name="classe">Nome da Classe</param>
+	<param name="rotina">Nome da rotina</param>
+	<param name="mensagem">Mensagem de erro</param>
+	<param name="tpErro">Tipo do erro</param>
+	<remarks></remarks>
+</member><member name="M:UTFPR.SGTCC.Negocio.Comum.Log.MontaMensagem(System.String,System.String,System.String,UTFPR.SGTCC.Negocio.Comum.TipoErro)">
+	<summary>
+ Método que monta a mensagem que será gravada no log
+ </summary>
+	<param name="classe">Nome da Classe</param>
+	<param name="rotina">Nome da Rotina</param>
+	<param name="mensagem">Mensagem de erro</param>
+	<param name="tpErro">Tipo do erro</param>
+	<returns>String</returns>
+	<remarks>Este método é chamado internamente</remarks>
+</member><member name="T:UTFPR.SGTCC.Negocio.Comum.Log">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: Log.                                                            <BR/>
+ Objetivo.....: Classe responsável por gerar logs de erro do sistema.           <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Aviso._codigoAviso">
+	<summary>
+ Código do Aviso
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Aviso._tituloAviso">
+	<summary>
+ Título do Aviso
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Aviso._conteudoAviso">
+	<summary>
+ Conteúdo do Aviso
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Aviso._dataPublicacaoAviso">
+	<summary>
+ Data de Publicação
+ </summary>
+</member><member name="F:UTFPR.SGTCC.Negocio.ModuloAP.Aviso._objUsuario">
+	<summary>
+ Objeto Usuário
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Aviso.#ctor">
+	<summary>
+ Construtor Padrão
+ </summary>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Aviso.CadastrarAviso(System.Int32,System.String,System.String)">
+	<summary>
+ Método que persiste um novo aviso na base de dados
+ </summary>
+	<param name="matriculaUsuario">Número da matrícula</param>
+	<param name="tituloAviso">Título do aviso</param>
+	<param name="conteudoAviso">Conteúdo do Aviso</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Aviso.AtualizaAviso(System.Int32,System.String,System.String)">
+	<summary>
+ Método que atualiza as informações do aviso
+ </summary>
+	<param name="codigoAviso">Código identificador do aviso</param>
+	<param name="tituloAviso">Título do aviso</param>
+	<param name="conteudoAviso">Conteúdo do aviso</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Aviso.ExcluirAviso(System.Int32)">
+	<summary>
+ Método que exclui o aviso da base
+ </summary>
+	<param name="codigoAviso">Código identificador do aviso</param>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Aviso.SelecionarPorCodigo(System.Int32)">
+	<summary>
+ Função que retorna um aviso informando o seu código
+ </summary>
+	<param name="codigoAviso">Código identificador do aviso</param>
+	<returns>Objeto Aviso</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Aviso.SelecionarTodosAvisos">
+	<summary>
+ Função que retorna todos os avisos cadastrados na base
+ </summary>
+	<returns>Lista de Avisos</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Aviso.SelecionarUltimosAvisos">
+	<summary>
+ Função que retorna somente os últimos avisos cadastrados
+ </summary>
+	<returns>Lista de avisos</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Aviso.CarregarListAvisos(System.Data.SqlClient.SqlDataReader)">
+	<summary>
+ Carrega uma lista de avisos
+ </summary>
+	<param name="drResults">DataReader com os resultados</param>
+	<returns>Lista de Avisos</returns>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Aviso.Salvar">
+	<summary>
+ Método que persiste os dados do aviso na base de dados
+ </summary>
+	<remarks>
+ Método implementado da inteface INegocioPersistencia
+ </remarks>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Aviso.Atualizar">
+	<summary>
+ Método que atualiza os dados do aviso na base de dados
+ </summary>
+	<remarks>
+ Método implementado da inteface INegocioPersistencia
+ </remarks>
+</member><member name="M:UTFPR.SGTCC.Negocio.ModuloAP.Aviso.Excluir">
+	<summary>
+ Método que exclui o aviso na base de dados
+ </summary>
+	<remarks>
+ Método implementado da inteface INegocioPersistencia
+ </remarks>
+</member><member name="T:UTFPR.SGTCC.Negocio.ModuloAP.Aviso">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: Aviso.                                                          <BR/>
+ Objetivo.....: Responsável por gerenciar os avisos para os alunos.             <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+	<remarks>Classe que implementa a interface INegocioPersistencia</remarks>
+</member><member name="T:UTFPR.SGTCC.Negocio.ModuloAP.TipoArquivo">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: TipoArquivo.                                                    <BR/>
+ Objetivo.....: Fornece os tipos de arquivos existentes.                        <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="T:UTFPR.SGTCC.Negocio.Comum.InfoTabelas">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: InfoTabelas.                                                    <BR/>
+ Objetivo.....: Classe com a constante dos nomes das tabelas.                   <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="T:UTFPR.SGTCC.Negocio.ModuloAP.StatusMensagem">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: StatusMensagem.                                                 <BR/>
+ Objetivo.....: Fornece os status possíveis das mensagens.                      <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member><member name="T:UTFPR.SGTCC.Negocio.ModuloAP.TipoUsuario">
+	<summary>
+ ****************************************************************************** <BR/>
+ Nome.........: TipoUsuario.                                                    <BR/>
+ Objetivo.....: Fornece os tipos de usuários existentes na aplicação.           <BR/>
+ ****************************************************************************** <BR/>
+	</summary>
+</member>
+</members>
+</doc>
